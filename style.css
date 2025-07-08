@@ -1,0 +1,104 @@
+/* Estilos Generales */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contenedor Principal */
+.container {
+    max-width: 600px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado y Títulos */
+header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3em;
+    color: #2c3e50;
+    margin-bottom: 0.2em;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #888;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+/* Contenido Principal */
+main p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Formulario de Newsletter */
+.newsletter p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    font-size: 1em;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #2980b9;
+}
+
+/* Pie de Página y Redes Sociales */
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    color: #333;
+    margin: 0 15px;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+/* Iconos de Font Awesome (necesitas la línea de <script> en el HTML) */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
