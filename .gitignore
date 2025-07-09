@@ -1,18 +1,44 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
-
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
-
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem 
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+# Ignore node_modules directory
+node_modules/
+# Ignore log files
+*.log
+# Ignore environment variable files
+.env
+# Ignore build directories
+dist/
+# Ignore coverage reports
+coverage/
+# Ignore temporary files
+*.tmp
+# Ignore IDE specific files
+.idea/
+# Ignore OS generated files
+Thumbs.db
+.DS_Store
+# Ignore editor specific files
+.vscode/
+# Ignore test files
+*.test.js
+# Ignore package lock files
+package-lock.json
+# Ignore yarn lock files
+yarn.lock
+# Ignore npm debug files
+npm-debug.log*
+# Ignore test output files
+test-output/
+# Ignore build artifacts and Hugo output
+build/
+# Ignore configuration files
+config.json
+# Ignore cache directories
+.cache/
+# Ignore documentation files
+docs/
+public/
+# Ignore backup files
+*.bak
+# Ignore compiled files
+*.o
+# Ignore binary files
+*.exe
