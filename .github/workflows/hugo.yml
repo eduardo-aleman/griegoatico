@@ -31,7 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      # Updated Hugo version to meet theme requirements
+      HUGO_VERSION: 0.146.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -50,7 +51,9 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
+          # Set a cache directory for Hugo
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          # Build for production
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
