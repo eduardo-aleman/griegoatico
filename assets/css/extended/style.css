@@ -2,16 +2,43 @@
 :root {
     --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     --font-serif: Georgia, 'Times New Roman', Times, serif;
-    --color-background: #ffffff;
-    --color-text: #333333;
-    --color-primary: #0056b3;
-    --color-border: #dcdcdc;
-    --color-subtle-bg: #f9f9f9;
+
+    /* --- Esquema de Color (Modo Claro) --- */
+    --color-background: #F9F2E4;      /* Beige muy claro */
+    --color-text: #1E424A;            /* Teal oscuro para texto */
+    --color-primary: #FD8B51;         /* Naranja brillante */
+    --color-primary-hover: #CB6040;   /* Naranja quemado */
+    --color-border: #DDCFAC;          /* Beige oscuro para bordes */
+    --color-subtle-bg: #F2E5BF;       /* Beige principal de la paleta */
+    --color-table-stripe: #F2E5BF;
+    --color-shadow: rgba(40, 60, 65, 0.1);
 }
 
-/* --- ANULACIÓN DE ESTILOS DEL TEMA --- */
+/* --- Variables para Modo Oscuro (usado por PaperMod) --- */
+body.dark {
+    --color-background: #1a383d;      /* Teal muy oscuro */
+    --color-text: #F2E5BF;            /* Beige para texto */
+    --color-primary: #FD8B51;         /* Naranja brillante */
+    --color-primary-hover: #CB6040;   /* Naranja quemado */
+    --color-border: #257180;          /* Teal principal de la paleta */
+    --color-subtle-bg: #20454d;       /* Teal intermedio */
+    --color-table-stripe: #20454d;
+    --color-shadow: rgba(0, 0, 0, 0.4);
+}
+
+/* --- ANULACIÓN Y UNIFICACIÓN DE CONTENEDORES --- */
 .main {
     max-width: none !important;
+}
+
+/* Contenedor unificado para homepage, posts y páginas */
+.main .container,
+.main .post-single,
+.main .page {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
 }
 
 /* --- Estilos Globales y Tipografía --- */
@@ -20,21 +47,32 @@ body {
     background-color: var(--color-background);
     color: var(--color-text);
     line-height: 1.6;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-sans-serif);
     font-weight: 600;
+    color: var(--color-text);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--color-border);
+    margin: 3rem 0;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: var(--color-primary-hover);
 }
 
 /* --- Estructura de la Portada --- */
-.main .container {
-    width: 90%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 2rem 1.5rem;
-}
-
 .homepage-header {
     text-align: center;
     margin-bottom: 3rem;
@@ -45,21 +83,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
 }
 
-.lesson { width: 100%; }
-
-hr {
-    border: none;
-    height: 1px;
-    background-color: var(--color-border);
-    margin: 3rem 0;
-}
-
 /* --- Secciones de Lectura y Escritura --- */
-#seccion-lectura,
-#seccion-escritura {
-    margin-top: 2rem;
-}
-
 #seccion-lectura h3,
 #seccion-escritura h3 {
     display: flex;
@@ -78,31 +102,13 @@ hr {
 }
 
 /* --- Espaciado de Contenido de la Lección --- */
-.content h2 {
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-}
+.content h2 { margin-top: 2.5rem; margin-bottom: 1rem; }
+.content h3 { margin-top: 2rem; margin-bottom: 1rem; }
+.content ul, .content ol, .content p { margin-bottom: 1.25rem; }
 
-.content h3 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.content ul,
-.content ol,
-.content p {
-    margin-bottom: 1.25rem;
-}
-
-
-/* --- Elementos Interactivos (Ejercicios y Teclado) --- */
+/* --- Elementos Interactivos (Ejercicios) --- */
 .exercise { margin-bottom: 2rem; }
-
-.exercise label {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-}
+.exercise label { display: block; font-weight: 600; margin-bottom: 0.75rem; }
 
 textarea.greek-input {
     width: 100%;
@@ -111,22 +117,61 @@ textarea.greek-input {
     font-family: var(--font-sans-serif);
     border: 1px solid var(--color-border);
     border-radius: 6px;
-    background-color: #fff;
+    background-color: var(--color-background);
+    color: var(--color-text);
     resize: vertical;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 textarea.greek-input:focus {
     outline: none;
     border-color: var(--color-primary);
-    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.15);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 15%, transparent);
 }
 
+/* --- Teclado Virtual y sus Teclas --- */
 #virtual-keyboard {
     margin-top: 2rem;
     padding: 1rem;
     background-color: var(--color-subtle-bg);
+    border: 1px solid var(--color-border);
     border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+}
+
+#virtual-keyboard button {
+    flex: 1 1 40px;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+}
+
+#virtual-keyboard button:hover {
+    border-color: var(--color-primary);
+}
+
+#virtual-keyboard button:active {
+    transform: scale(0.95);
+}
+
+/* Estilos de Teclas en Modo Oscuro */
+body.dark #virtual-keyboard button {
+    background-color: #20454d;
+    border-color: #257180;
+}
+
+body.dark #virtual-keyboard button:hover {
+    background-color: #257180;
+    border-color: var(--color-primary);
 }
 
 #download-button {
@@ -135,7 +180,7 @@ textarea.greek-input:focus {
     padding: 12px 24px;
     font-size: 1rem;
     font-weight: 600;
-    color: #fff;
+    color: #1E424A; /* Teal oscuro para contraste sobre naranja */
     background-color: var(--color-primary);
     border: none;
     border-radius: 6px;
@@ -144,7 +189,9 @@ textarea.greek-input:focus {
     transition: background-color 0.2s ease;
 }
 
-#download-button:hover { background-color: #00448a; }
+#download-button:hover {
+    background-color: var(--color-primary-hover);
+}
 
 /* --- Estilos para Tablas --- */
 .content table {
@@ -154,8 +201,7 @@ textarea.greek-input:focus {
     font-size: 0.95rem;
 }
 
-.content th,
-.content td {
+.content th, .content td {
     border: 1px solid var(--color-border);
     padding: 12px 15px;
     text-align: left;
@@ -165,81 +211,46 @@ textarea.greek-input:focus {
 .content th {
     background-color: var(--color-subtle-bg);
     font-weight: 700;
-    white-space: normal;
 }
 
 .content tbody tr:nth-child(even) {
-    background-color: var(--color-subtle-bg);
-}
-
-/* --- Estilos para Modo Oscuro --- */
-.dark .content,
-.dark .content p,
-.dark .content ul,
-.dark .content ol,
-.dark .content li {
-    color: var(--content);
-}
-
-.dark .content th,
-.dark .content td {
-    border-color: var(--border);
-}
-
-.dark .content th,
-.dark .content tbody tr:nth-child(even) {
-    background-color: var(--entry);
-}
-
-/* --- Diseño Responsivo para Móviles --- */
-@media (max-width: 768px) {
-    .main .container {
-        width: 100%;
-        padding: 1.5rem 1rem;
-    }
-    .homepage-header h1 { font-size: 2rem; }
-    h3 { font-size: 1.3rem; }
+    background-color: var(--color-table-stripe);
 }
 
 /* --- Estilos para la Lista de Lecciones en la Portada --- */
-
 .lesson-summary {
-    background-color: var(--entry);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
+    background-color: var(--color-subtle-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
     padding: 1.5rem 2rem;
     margin-bottom: 2rem;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease;
 }
 
 .lesson-summary:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.dark .lesson-summary:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px var(--color-shadow);
 }
 
 .lesson-summary .lesson-title a {
     text-decoration: none;
-    color: inherit; /* Hereda el color del texto normal */
+    color: var(--color-text);
 }
 
 .lesson-summary .lesson-title a:hover {
-    color: var(--color-primary); /* Cambia a color primario al pasar el ratón */
+    color: var(--color-primary);
     text-decoration: underline;
 }
 
 .lesson-summary .lesson-meta {
     font-size: 0.85rem;
-    color: var(--secondary);
+    opacity: 0.7;
     margin-top: 0.25rem;
     margin-bottom: 1rem;
 }
 
 .lesson-summary .lesson-description {
-    color: var(--content);
+    opacity: 0.9;
 }
 
 .lesson-summary .read-more {
@@ -247,9 +258,21 @@ textarea.greek-input:focus {
     margin-top: 1rem;
     font-weight: 600;
     color: var(--color-primary);
-    text-decoration: none;
 }
 
 .lesson-summary .read-more:hover {
     text-decoration: underline;
+    color: var(--color-primary-hover);
+}
+
+/* --- Diseño Responsivo para Móviles --- */
+@media (max-width: 768px) {
+    .main .container,
+    .main .post-single,
+    .main .page {
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
+    .homepage-header h1 { font-size: 2rem; }
+    h3 { font-size: 1.3rem; }
 }
