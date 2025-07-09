@@ -21,7 +21,7 @@ ejercicios:
 
 ## El Alfabeto Griego: La Puerta al Mundo Clásico
 
-Aprender el alfabeto griego antiguo es el primer paso para leer textos clásicos como los de Homero, Platón o Aristóteles. Con solo 24 letras, este sistema ha dado origen a muchas lenguas y términos científicos. En esta lección, aprenderás a reconocer y pronunciar cada letra, incluyendo los diptongos más frecuentes.
+Aprender el alfabeto griego antiguo es el primer paso para leer textos clásicos como los de Tucídides, Platón o Aristóteles. Con solo 24 letras, este sistema ha dado origen a muchas lenguas y términos científicos. En esta lección, aprenderás a reconocer y pronunciar cada letra, incluyendo los diptongos más frecuentes.
 
 ---
 
