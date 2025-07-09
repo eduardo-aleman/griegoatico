@@ -129,4 +129,3 @@ Aprender el alfabeto griego antiguo es el primer paso para leer textos clásicos
 ## Próximos Pasos
 
 Una vez que domines las letras y sus sonidos básicos, estarás listo para la siguiente lección, donde exploraremos los **diacríticos**: los espíritus, acentos y signos que añaden la "música" y la precisión final a la palabra griega.
-

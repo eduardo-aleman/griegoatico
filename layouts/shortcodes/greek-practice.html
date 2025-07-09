@@ -1,0 +1,23 @@
+{{/* layouts/shortcodes/greek-practice.html */}}
+
+{{ if .Page.Params.ejercicios }}
+<section id="seccion-escritura">
+  <h3><i class="fas fa-pen"></i> Escritura</h3>
+  <p>Haz clic en cada botón para responder la pregunta con el teclado griego:</p>
+
+  <div class="exercise-buttons">
+    {{ range $index, $ejercicio := .Page.Params.ejercicios }}
+      <button 
+        class="open-modal-btn btn"
+        data-question="{{ $ejercicio.pregunta | htmlEscape }}"
+        data-index="{{ $index }}">
+        Pregunta {{ add $index 1 }}
+      </button>
+    {{ end }}
+  </div>
+
+  <button id="download-button" class="btn descargar-btn">
+    Descargar todas mis respuestas
+  </button>
+</section>
+{{ end }}

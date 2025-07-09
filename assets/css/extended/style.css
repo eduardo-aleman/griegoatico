@@ -1,38 +1,31 @@
+/* === COMIENZO: CSS ORIGINAL === */
 /* --- :root - Variables de Color y Fuentes --- */
 :root {
     --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     --font-serif: Georgia, 'Times New Roman', Times, serif;
-
-    /* --- Esquema de Color (Modo Claro) --- */
-    --color-background: #F9F2E4;      /* Beige muy claro */
-    --color-text: #1E424A;            /* Teal oscuro para texto */
-    /* NUEVOS COLORES PRIMARIOS PARA MEJOR CONTRASTE */
-    --color-primary: #006C7F;         /* Teal intenso para enlaces */
-    --color-primary-hover: #005666;   /* Teal más oscuro para hover */
-    --color-border: #DDCFAC;          /* Beige oscuro para bordes */
-    --color-subtle-bg: #F2E5BF;       /* Beige principal de la paleta */
+    --color-background: #F9F2E4;
+    --color-text: #1E424A;
+    --color-primary: #006C7F;
+    --color-primary-hover: #005666;
+    --color-border: #DDCFAC;
+    --color-subtle-bg: #F2E5BF;
     --color-table-stripe: #F2E5BF;
     --color-shadow: rgba(40, 60, 65, 0.1);
 }
-
-/* --- Variables para Modo Oscuro (usado por PaperMod) --- */
 body.dark {
-    --color-background: #1a383d;      /* Teal muy oscuro */
-    --color-text: #F2E5BF;            /* Beige para texto */
-    --color-primary: #FD8B51;         /* Naranja brillante */
-    --color-primary-hover: #CB6040;   /* Naranja quemado */
-    --color-border: #257180;          /* Teal principal de la paleta */
-    --color-subtle-bg: #20454d;       /* Teal intermedio */
+    --color-background: #1a383d;
+    --color-text: #F2E5BF;
+    --color-primary: #FD8B51;
+    --color-primary-hover: #CB6040;
+    --color-border: #257180;
+    --color-subtle-bg: #20454d;
     --color-table-stripe: #20454d;
     --color-shadow: rgba(0, 0, 0, 0.4);
 }
-
-/* --- ANULACIÓN Y UNIFICACIÓN DE CONTENEDORES --- */
+/* --- CONTENEDORES Y TIPOGRAFÍA --- */
 .main {
     max-width: none !important;
 }
-
-/* Contenedor unificado para homepage, posts y páginas */
 .main .container,
 .main .post-single,
 .main .page {
@@ -41,8 +34,6 @@ body.dark {
     margin: 0 auto;
     padding: 2rem 1.5rem;
 }
-
-/* --- Estilos Globales y Tipografía --- */
 body {
     font-family: var(--font-sans-serif);
     background-color: var(--color-background);
@@ -50,82 +41,51 @@ body {
     line-height: 1.6;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-sans-serif);
     font-weight: 600;
     color: var(--color-text);
 }
-
 hr {
     border: none;
     height: 1px;
     background-color: var(--color-border);
     margin: 3rem 0;
 }
-
-/* --- Enlaces: sin subrayado en todos los estados --- */
-a,
-a:visited,
-a:hover,
-a:focus,
-a:active {
+a {
     color: var(--color-primary);
     text-decoration: none;
 }
-
-a:hover,
-a:focus {
+a:hover {
+    text-decoration: underline;
     color: var(--color-primary-hover);
 }
-
-/* --- ESTILOS MEJORADOS PARA LA CABECERA --- */
+/* --- CABECERA --- */
 .header {
     background-color: var(--color-subtle-bg);
     border-bottom: 1px solid var(--color-border);
     padding: 1rem 0;
     transition: background-color 0.2s ease, border-color 0.2s ease;
 }
-
-.header .nav {
-    max-width: 1400px;
-}
-
+.header .nav { max-width: 1400px; }
 .logo a {
     display: flex;
     align-items: center;
     gap: 12px;
     font-size: 1.4rem;
     font-weight: 600;
-    /* sin subrayado */
-    text-decoration: none;
     color: var(--color-text);
+    text-decoration: none;
 }
-
 .logo img {
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-
-.logo a:hover img {
-    transform: rotate(-10deg) scale(1.1);
-}
-
-#menu {
-    font-size: 1rem;
-}
-
-/* --- Estructura de la Portada --- */
-.homepage-header {
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.homepage-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-/* --- Secciones de Lectura y Escritura --- */
+.logo a:hover img { transform: rotate(-10deg) scale(1.1); }
+#menu { font-size: 1rem; }
+/* --- PORTADA --- */
+.homepage-header { text-align: center; margin-bottom: 3rem; }
+.homepage-header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+/* --- LECTURA / ESCRITURA --- */
 #seccion-lectura h3,
 #seccion-escritura h3 {
     display: flex;
@@ -136,182 +96,72 @@ a:focus {
     border-bottom: 2px solid var(--color-border);
     padding-bottom: 0.5rem;
 }
-
 #seccion-lectura .content {
     font-family: var(--font-serif);
     font-size: 1.1rem;
     line-height: 1.7;
 }
-
-/* --- Espaciado de Contenido de la Lección --- */
 .content h2 { margin-top: 2.5rem; margin-bottom: 1rem; }
 .content h3 { margin-top: 2rem; margin-bottom: 1rem; }
 .content ul, .content ol, .content p { margin-bottom: 1.25rem; }
-
-/* --- Elementos Interactivos (Ejercicios) --- */
-.exercise { margin-bottom: 2rem; }
-.exercise label { display: block; font-weight: 600; margin-bottom: 0.75rem; }
-
-textarea.greek-input {
-    width: 100%;
-    padding: 12px;
-    font-size: 1rem;
-    font-family: var(--font-sans-serif);
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-    background-color: var(--color-background);
-    color: var(--color-text);
-    resize: vertical;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
-}
-
-textarea.greek-input:focus {
-    outline: none;
-    border-color: var(--color-primary);
-    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 15%, transparent);
-}
-
-/* --- Teclado Virtual y sus Teclas --- */
-#virtual-keyboard {
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: var(--color-subtle-bg);
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 6px;
-}
-
-#virtual-keyboard button {
-    flex: 1 1 40px;
-    padding: 10px;
-    font-size: 1.1rem;
-    font-weight: 500;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
-    background-color: var(--color-background);
-    color: var(--color-text);
-    border: 1px solid var(--color-border);
-}
-
-#virtual-keyboard button:hover {
-    border-color: var(--color-primary);
-}
-
-#virtual-keyboard button:active {
-    transform: scale(0.95);
-}
-
-/* Estilos de Teclas en Modo Oscuro */
-body.dark #virtual-keyboard button {
-    background-color: #20454d;
-    border-color: #257180;
-}
-
-body.dark #virtual-keyboard button:hover {
-    background-color: #257180;
-    border-color: var(--color-primary);
-}
-
-#download-button {
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 12px 24px;
-    font-size: 1rem;
-    font-weight: 600;
-    /* TEXTO AJUSTADO PARA CONTRASTE SOBRE EL NUEVO COLOR DE FONDO */
-    color: #F2E5BF;
-    background-color: var(--color-primary);
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.2s ease;
-}
-
-#download-button:hover {
-    background-color: var(--color-primary-hover);
-}
-
-/* --- Estilos para Tablas --- */
+/* --- TABLAS --- */
 .content table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 2rem;
     font-size: 0.95rem;
 }
-
 .content th, .content td {
     border: 1px solid var(--color-border);
     padding: 12px 15px;
     text-align: left;
-    vertical-align: top;
 }
-
 .content th {
     background-color: var(--color-subtle-bg);
     font-weight: 700;
 }
-
 .content tbody tr:nth-child(even) {
     background-color: var(--color-table-stripe);
 }
-
-/* --- Estilos para la Lista de Lecciones en la Portada --- */
+/* --- LISTADO DE LECCIONES --- */
 .lesson-summary {
     background-color: var(--color-subtle-bg);
     border: 1px solid var(--color-border);
     border-radius: 8px;
     padding: 1.5rem 2rem;
     margin-bottom: 2rem;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-
 .lesson-summary:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 12px var(--color-shadow);
 }
-
 .lesson-summary .lesson-title a {
-    /* sin subrayado */
     text-decoration: none;
     color: var(--color-text);
 }
-
 .lesson-summary .lesson-title a:hover {
+    text-decoration: underline;
     color: var(--color-primary);
-    /* sin subrayado */
-    text-decoration: none;
 }
-
 .lesson-summary .lesson-meta {
     font-size: 0.85rem;
     opacity: 0.7;
     margin-top: 0.25rem;
     margin-bottom: 1rem;
 }
-
-.lesson-summary .lesson-description {
-    opacity: 0.9;
-}
-
+.lesson-summary .lesson-description { opacity: 0.9; }
 .lesson-summary .read-more {
     display: inline-block;
     margin-top: 1rem;
     font-weight: 600;
     color: var(--color-primary);
 }
-
 .lesson-summary .read-more:hover {
-    /* sin subrayado */
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--color-primary-hover);
 }
-
-/* --- Diseño Responsivo para Móviles --- */
+/* --- MÓVIL --- */
 @media (max-width: 768px) {
     .main .container,
     .main .post-single,
@@ -321,4 +171,223 @@ body.dark #virtual-keyboard button:hover {
     }
     .homepage-header h1 { font-size: 2rem; }
     h3 { font-size: 1.3rem; }
+}
+
+/*
+=======================================================================
+  SECCIÓN INTERACTIVA: MODALES, TECLADO Y EJERCICIOS
+=======================================================================
+*/
+
+/* --- 1. Botones de Ejercicios y Descarga --- */
+/* Contenedor para alinear los botones de "Responder ejercicio" */
+.exercise-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 2rem 0;
+}
+
+/* Estilo base para todos los botones */
+.btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.15s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-subtle-bg);
+    color: var(--color-text);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--color-shadow);
+    text-decoration: none;
+    border-color: var(--color-primary);
+}
+
+.btn:active {
+    transform: translateY(0px) scale(0.98);
+}
+
+/* Estilo específico para el botón principal de descarga */
+#download-button {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    border-color: var(--color-primary);
+}
+
+#download-button:hover {
+    background-color: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
+    color: var(--color-background);
+}
+
+
+/* --- 2. Ventanas Modales --- */
+/* Fondo oscuro que cubre toda la pantalla */
+#overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(30, 66, 74, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Contenedor del modal (invisible, solo para posicionar el contenido) */
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1001; /* Encima del overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Contenido visible del modal */
+.modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    box-shadow: 0 10px 30px var(--color-shadow);
+    transform: scale(0.95);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.modal.active .modal-content {
+    transform: scale(1);
+}
+
+.modal-question {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    color: var(--color-primary);
+}
+
+/* Botón para cerrar el modal */
+.modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--color-text);
+    opacity: 0.6;
+    transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+
+.modal-close:hover {
+    opacity: 1;
+    transform: rotate(90deg);
+    background-color: var(--color-subtle-bg);
+}
+
+/* Área de texto para la respuesta del usuario */
+.greek-input {
+    width: 100%;
+    padding: 12px;
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    resize: vertical;
+}
+
+.greek-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 25%, transparent);
+}
+
+
+/* --- 3. Teclado Virtual (simple-keyboard) --- */
+/* Contenedor principal del teclado */
+#virtual-keyboard {
+    margin-top: 1.5rem;
+    /* Los estilos ahora se aplican directamente a las clases de la biblioteca */
+}
+
+/* Estilo base del tema del teclado */
+.simple-keyboard.hg-theme-default {
+    background-color: var(--color-subtle-bg);
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+}
+
+/* Estilo para todos los botones del teclado */
+.simple-keyboard .hg-button {
+    font-family: var(--font-sans-serif);
+    height: 50px;
+    border-radius: 8px;
+    border-bottom-width: 3px;
+    background: var(--color-background);
+    color: var(--color-text);
+    box-shadow: 0 1px 3px var(--color-shadow);
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.simple-keyboard .hg-button:hover {
+    background: color-mix(in srgb, var(--color-text) 5%, var(--color-background));
+}
+
+.simple-keyboard .hg-button:active {
+    transform: translateY(2px);
+    border-bottom-width: 1px;
+    box-shadow: none;
+}
+
+/* Estilos para las teclas de diacríticos */
+.simple-keyboard .hg-button[data-value*="\u0301"], /* Agudo */
+.simple-keyboard .hg-button[data-value*="\u0300"], /* Grave */
+.simple-keyboard .hg-button[data-value*="\u0342"], /* Circunflejo */
+.simple-keyboard .hg-button[data-value*="\u0313"], /* E. Suave */
+.simple-keyboard .hg-button[data-value*="\u0314"], /* E. Áspero */
+.simple-keyboard .hg-button[data-value*="\u0345"], /* Iota Suscrita */
+.simple-keyboard .hg-button[data-value*="\u0308"]  /* Diéresis */
+{
+    background: var(--color-border);
+    font-weight: 700;
+}
+
+.simple-keyboard .hg-button[data-value*="\u0301"]:hover {
+    background: color-mix(in srgb, var(--color-primary) 20%, var(--color-border));
+}
+
+/* Estilo para la tecla MAYÚS cuando está activa */
+.simple-keyboard .hg-button.hg-activeButton[data-skbtn="{shift}"] {
+    background: var(--color-primary);
+    color: var(--color-background);
 }

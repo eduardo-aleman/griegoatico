@@ -1,101 +1,173 @@
-// static/js/app.js - VERSIÓN FINAL CON CORRECCIÓN DE ERROR
+/* /js/app.js (versión final corregida) */
+
 document.addEventListener("DOMContentLoaded", () => {
-    
-    // PRUEBA DE VERSIÓN: Revisa la consola de tu navegador para ver este mensaje.
-    console.log("--- Cargando app.js v5 ---");
+  const openModalButtons = document.querySelectorAll("[data-modal-target]");
+  const closeModalButtons = document.querySelectorAll(".modal-close");
+  const downloadButton = document.getElementById("download-button");
+  const overlay = document.createElement("div");
+  overlay.id = "overlay";
+  document.body.appendChild(overlay);
 
-    // --- INICIO DE LA CORRECCIÓN ---
-    const keyboardContainer = document.getElementById("virtual-keyboard");
-    // Si el contenedor del teclado no existe en esta página, no hagas nada más.
-    if (!keyboardContainer) {
-        return; 
-    }
-    // --- FIN DE LA CORRECCIÓN ---
+  let keyboard = null;
+  let activeInput = null;
 
-    if (!window.SimpleKeyboard) { return; }
+  // ----------- Lógica del Teclado Virtual -----------
 
+  function initKeyboard() {
     const Keyboard = window.SimpleKeyboard.default;
-    
-    // Pasamos la variable 'keyboardContainer' que ya hemos definido
-    const keyboard = new Keyboard(keyboardContainer, {
-        onChange: input => onChange(input),
-        onKeyPress: button => onKeyPress(button),
-        layout: {
-            'default': [
-                'ς ε ρ τ υ θ ι ο π',
-                'α σ δ φ γ η ξ κ λ',
-                'ζ χ ψ ω β ν μ',
-                '{shift} {space} {diacritics} {backspace}'
-            ],
-            'shift': [
-                'Ε Ρ Τ Υ Θ Ι Ο Π',
-                'Α Σ Δ Φ Γ Η Ξ Κ Λ',
-                'Ζ Χ Ψ Ω Β Ν Μ',
-                '{shift} {space} {diacritics} {backspace}'
-            ],
-            'diacritics': [
-                'ά έ ή ί ό ύ ώ', 'ᾶ ῆ ῖ ῦ ῶ', 'ὰ ὲ ὴ ὶ ὸ ὺ ὼ',
-                'ἄ ἔ ἤ ἴ ὄ ὔ ὤ', 'ἅ ἕ ἥ ἵ ὅ ὕ ὥ', 'ἆ ἦ ἶ ὖ ὦ', 'ἇ ἧ ἷ ὗ ὧ',
-                '· ; , . ᾽ ῾ ῀ ´ ` ͅ', '{default} {space} {backspace}'
-            ]
-        },
-        display: {
-            '{shift}': 'MAYÚS',
-            '{space}': 'ESPACIO',
-            '{backspace}': 'BORRAR',
-            '{diacritics}': 'Á Έ ῏',
-            '{default}': 'α β γ'
+    if (keyboard) return;
+
+    keyboard = new Keyboard({
+      onChange: input => {
+        if (activeInput) {
+          activeInput.value = input;
         }
+      },
+      // SOLUCIÓN PARA LA TECLA MAYÚS
+      onKeyPress: button => {
+        if (button === "{shift}") handleShift();
+      },
+      mergeDiacritics: true,
+      layoutName: "default",
+      theme: "hg-theme-default hg-layout-default hg-layout-greek",
+      layout: {
+        'default': [
+          '´ ` ~ ʼ ʽ ͅ ¨',
+          'α β γ δ ε ζ η θ ι κ λ μ',
+          'ν ξ ο π ρ σ/ς τ υ φ χ ψ ω',
+          '{shift} {space} {backspace}'
+        ],
+        'shift': [
+          '´ ` ~ ʼ ʽ ͅ ¨',
+          'Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ',
+          'Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω',
+          '{shift} {space} {backspace}'
+        ]
+      },
+      buttonAttributes: [
+        { attribute: 'data-value', value: '\u0301', buttons: '´' },
+        { attribute: 'aria-label', value: 'Agudo (Oxia)', buttons: '´' },
+        { attribute: 'data-value', value: '\u0300', buttons: '`' },
+        { attribute: 'aria-label', value: 'Grave (Varia)', buttons: '`' },
+        { attribute: 'data-value', value: '\u0342', buttons: '~' },
+        { attribute: 'aria-label', value: 'Circunflejo (Perispomeni)', buttons: '~' },
+        { attribute: 'data-value', value: '\u0313', buttons: 'ʼ' },
+        { attribute: 'aria-label', value: 'Espíritu Suave (Psili)', buttons: 'ʼ' },
+        { attribute: 'data-value', value: '\u0314', buttons: 'ʽ' },
+        { attribute: 'aria-label', value: 'Espíritu Áspero (Dasia)', buttons: 'ʽ' },
+        { attribute: 'data-value', value: '\u0345', buttons: 'ͅ' },
+        { attribute: 'aria-label', value: 'Iota Suscrita', buttons: 'ͅ' },
+        { attribute: 'data-value', value: '\u0308', buttons: '¨' },
+        { attribute: 'aria-label', value: 'Diéresis', buttons: '¨' },
+      ],
+      display: {
+        '{shift}': 'MAYÚSCULA',
+        '{space}': 'Espacio',
+        '{backspace}': 'Borrar'
+      }
     });
-
-    let activeInput = null;
-    const inputs = document.querySelectorAll('.greek-input');
-    
-    inputs.forEach(input => {
-        input.addEventListener('focus', (event) => {
-            activeInput = event.target;
-        });
-
-        input.addEventListener('input', (event) => {
-            keyboard.setInput(event.target.value);
-        });
+  }
+  
+  // Función para manejar el cambio de mayúsculas/minúsculas
+  const handleShift = () => {
+    const currentLayout = keyboard.options.layoutName;
+    const shiftToggle = currentLayout === "default" ? "shift" : "default";
+    keyboard.setOptions({
+      layoutName: shiftToggle
     });
+  };
 
-    function onChange(input) { if (activeInput) { activeInput.value = input; } }
 
-    function onKeyPress(button) {
-        if (button === "{shift}") {
-            const shiftToggle = keyboard.options.layoutName === "default" ? "shift" : "default";
-            keyboard.setOptions({ layoutName: shiftToggle });
-            return;
-        }
+  function showKeyboard() {
+    const vk = document.getElementById("virtual-keyboard");
+    if (vk) vk.style.display = "block";
+  }
 
-        if (button === "{diacritics}" || button === "{default}") {
-            const newLayout = keyboard.options.layoutName.includes("diacritics") ? "default" : "diacritics";
-            keyboard.setOptions({ layoutName: newLayout });
-            return;
-        }
-        
-        if (keyboard.options.layoutName === "shift") {
-            keyboard.setOptions({ layoutName: "default" });
-        }
+  function hideKeyboard() {
+    const vk = document.getElementById("virtual-keyboard");
+    if (vk) vk.style.display = "none";
+    if (keyboard) keyboard.clearInput();
+    activeInput = null;
+  }
+
+  // ----------- Lógica de los Modales -----------
+
+  function openModal(modal) {
+    if (modal == null) return;
+    modal.classList.add("active");
+    overlay.classList.add("active");
+    initKeyboard();
+  }
+
+  function closeModal(modal) {
+    if (modal == null) return;
+    modal.classList.remove("active");
+    overlay.classList.remove("active");
+    hideKeyboard();
+  }
+
+  openModalButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const modal = document.querySelector("#" + button.dataset.modalTarget);
+      openModal(modal);
+    });
+  });
+
+  overlay.addEventListener("click", () => {
+    const modals = document.querySelectorAll(".modal.active");
+    modals.forEach(modal => closeModal(modal));
+  });
+
+  closeModalButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const modal = button.closest(".modal");
+      closeModal(modal);
+    });
+  });
+
+  // ----------- Sincronización del Teclado y Descarga -----------
+
+  // SOLUCIÓN PARA EL BUG DEL CONTENIDO BORRADO
+  document.addEventListener('input', (event) => {
+    if (event.target.classList.contains('greek-input') && keyboard && activeInput === event.target) {
+      keyboard.setInput(event.target.value);
     }
+  });
+  
+  // SOLUCIÓN PARA EL BOTÓN DE DESCARGA
+  if (downloadButton) {
+    downloadButton.addEventListener("click", () => {
+      let content = `Respuestas de los Ejercicios - ${document.title}\n`;
+      content += "==================================================\n\n";
 
-    const downloadBtn = document.getElementById('download-button');
-    if (downloadBtn) {
-        downloadBtn.addEventListener('click', () => {
-            let fullText = `Respuestas para la lección: ${document.querySelector('.lesson h2').innerText}\n\n`;
-            document.querySelectorAll('.exercise').forEach((exercise, index) => {
-                const q = exercise.querySelector('label').innerText;
-                const a = exercise.querySelector('textarea').value;
-                fullText += `--- Pregunta ${index + 1} ---\n${q}\nRespuesta: ${a || '(Sin respuesta)'}\n\n`;
-            });
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(new Blob([fullText], { type: 'text/plain;charset=utf-8' }));
-            link.download = 'mis_respuestas_griego.txt';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });
+      const modals = document.querySelectorAll(".modal");
+      modals.forEach(modal => {
+        const question = modal.querySelector(".modal-question").textContent.trim();
+        const answer = modal.querySelector(".greek-input").value.trim();
+        content += `Pregunta: ${question}\n`;
+        content += `Respuesta: ${answer || "(Sin respuesta)"}\n\n--------------------------------------------------\n\n`;
+      });
+
+      const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.download = "respuestas_griego.txt";
+      link.href = url;
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+  }
+
+  document.addEventListener("focusin", (event) => {
+    if (event.target.classList.contains("greek-input")) {
+      activeInput = event.target;
+      const modalContent = activeInput.closest('.modal-content');
+      const keyboardContainer = document.getElementById('virtual-keyboard');
+      if (modalContent && keyboardContainer) {
+        modalContent.appendChild(keyboardContainer);
+      }
+      showKeyboard();
+      if (keyboard) keyboard.setInput(activeInput.value || "");
     }
+  });
 });
