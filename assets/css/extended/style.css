@@ -6,8 +6,9 @@
     /* --- Esquema de Color (Modo Claro) --- */
     --color-background: #F9F2E4;      /* Beige muy claro */
     --color-text: #1E424A;            /* Teal oscuro para texto */
-    --color-primary: #FD8B51;         /* Naranja brillante */
-    --color-primary-hover: #CB6040;   /* Naranja quemado */
+    /* NUEVOS COLORES PRIMARIOS PARA MEJOR CONTRASTE */
+    --color-primary: #006C7F;         /* Teal intenso para enlaces */
+    --color-primary-hover: #005666;   /* Teal más oscuro para hover */
     --color-border: #DDCFAC;          /* Beige oscuro para bordes */
     --color-subtle-bg: #F2E5BF;       /* Beige principal de la paleta */
     --color-table-stripe: #F2E5BF;
@@ -70,6 +71,40 @@ a {
 a:hover {
     text-decoration: underline;
     color: var(--color-primary-hover);
+}
+
+/* --- ESTILOS MEJORADOS PARA LA CABECERA --- */
+.header {
+    background-color: var(--color-subtle-bg);
+    border-bottom: 1px solid var(--color-border);
+    padding: 1rem 0;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.header .nav {
+    max-width: 1400px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.logo img {
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.logo a:hover img {
+    transform: rotate(-10deg) scale(1.1);
+}
+
+#menu {
+    font-size: 1rem;
 }
 
 /* --- Estructura de la Portada --- */
@@ -180,7 +215,8 @@ body.dark #virtual-keyboard button:hover {
     padding: 12px 24px;
     font-size: 1rem;
     font-weight: 600;
-    color: #1E424A; /* Teal oscuro para contraste sobre naranja */
+    /* TEXTO AJUSTADO PARA CONTRASTE SOBRE EL NUEVO COLOR DE FONDO */
+    color: #F2E5BF;
     background-color: var(--color-primary);
     border: none;
     border-radius: 6px;

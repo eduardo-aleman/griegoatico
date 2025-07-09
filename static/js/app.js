@@ -1,14 +1,23 @@
-// static/js/app.js - VERSIÓN FINAL CON SINCRONIZACIÓN CONSTANTE
+// static/js/app.js - VERSIÓN FINAL CON CORRECCIÓN DE ERROR
 document.addEventListener("DOMContentLoaded", () => {
     
     // PRUEBA DE VERSIÓN: Revisa la consola de tu navegador para ver este mensaje.
-    console.log("--- Cargando app.js v4 ---");
+    console.log("--- Cargando app.js v5 ---");
+
+    // --- INICIO DE LA CORRECCIÓN ---
+    const keyboardContainer = document.getElementById("virtual-keyboard");
+    // Si el contenedor del teclado no existe en esta página, no hagas nada más.
+    if (!keyboardContainer) {
+        return; 
+    }
+    // --- FIN DE LA CORRECCIÓN ---
 
     if (!window.SimpleKeyboard) { return; }
 
     const Keyboard = window.SimpleKeyboard.default;
     
-    const keyboard = new Keyboard(document.getElementById("virtual-keyboard"), {
+    // Pasamos la variable 'keyboardContainer' que ya hemos definido
+    const keyboard = new Keyboard(keyboardContainer, {
         onChange: input => onChange(input),
         onKeyPress: button => onKeyPress(button),
         layout: {
@@ -42,20 +51,15 @@ document.addEventListener("DOMContentLoaded", () => {
     let activeInput = null;
     const inputs = document.querySelectorAll('.greek-input');
     
-    // --- LÓGICA DE SINCRONIZACIÓN MEJORADA ---
     inputs.forEach(input => {
-        // 1. Este listener establece cuál es el campo activo cuando haces clic en él.
         input.addEventListener('focus', (event) => {
             activeInput = event.target;
         });
 
-        // 2. Este listener MANTIENE SINCRONIZADO el teclado virtual
-        //    con cualquier cambio hecho por el teclado físico.
         input.addEventListener('input', (event) => {
             keyboard.setInput(event.target.value);
         });
     });
-    // --- FIN DE LA LÓGICA MEJORADA ---
 
     function onChange(input) { if (activeInput) { activeInput.value = input; } }
 

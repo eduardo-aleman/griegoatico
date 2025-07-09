@@ -1,46 +1,53 @@
-baseURL: https://griegoatico.com/
-languageCode: es-es
-title: Griego Ático
-theme: PaperMod
+# --- CONFIGURACIÓN PRINCIPAL DEL SITIO ---
+baseURL: "https://griegoatico.com/"
+languageCode: "es-es"
+title: "Griego Ático"
+theme: "PaperMod"
 
-# Habilitar Markdown en el Front Matter
+# Habilitar el renderizado de HTML dentro de los archivos Markdown.
 markup:
   goldmark:
     renderer:
       unsafe: true
 
-# Parámetros del tema PaperMod
+# --- PARÁMETROS DEL TEMA (PARAMS) ---
 params:
-  author: ["Eduardo Alemán"]
+  author: 
+    - "Eduardo Alemán"
   description: "Un sitio para aprender griego ático antiguo."
-  defaultTheme: auto
+  defaultTheme: "auto" # Opciones: "light", "dark", "auto"
   disableThemeToggle: false
 
-  # Configuración del perfil en la portada
+  # Configuración del logo en la cabecera del sitio.
+  label:
+    text: "Griego Ático"
+    # Hugo buscará este archivo en la carpeta "assets/images/".
+    icon: "images/atico.svg" 
+    iconHeight: 40
+
+  # Configuración del perfil en la página de inicio.
   profileMode:
     enabled: true
     title: "Griego Ático"
-    subtitle: "Aprende Griego Antiguo"
-    imageUrl: "/images/atico.svg"
+    subtitle: "Un Recurso para el Estudio del Griego Antiguo"
+    # Esta imagen también se busca en la carpeta "assets/".
+    imageUrl: "images/atico.svg"
     imageWidth: 120
     imageHeight: 120
     buttons:
-      - name: Todas las Lecciones
+      - name: "Explorar Lecciones"
         url: "/lecciones"
+      - name: "Recursos"
+        url: "/referencias"
 
-# Configuración del Menú de Navegación
 # --- CONFIGURACIÓN DEL MENÚ DE NAVEGACIÓN ---
 menu:
   main:
-    - identifier: lecciones
-      name: Lecciones
-      url: /lecciones/
-      weight: 10
-    - identifier: referencias 
-      name: Referencias      
-      url: /referencias/    
-      weight: 20            
-    # - identifier: sobre
-    #   name: Sobre Mí
-    #   url: /sobre/
-    #   weight: 30
+    - identifier: "lecciones" # Identificador único
+      name: "Lecciones"       # Texto que se muestra
+      url: "/lecciones/"      # Enlace de destino
+      weight: 10              # Orden de aparición (menor a mayor)
+    - identifier: "referencias"
+      name: "Referencias"
+      url: "/referencias/"
+      weight: 20

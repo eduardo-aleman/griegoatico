@@ -5,38 +5,48 @@ draft: false
 description: "Una lista curada de diccionarios, gramáticas y herramientas en línea para el estudio del griego antiguo, tanto en español como en inglés."
 ---
 
-Esta página contiene una lista de recursos de alta calidad que son fundamentales para cualquier estudiante o investigador del griego clásico.
+Una selección de las obras y herramientas más importantes para el estudio serio del griego antiguo. Los recursos se dividen en diccionarios, gramáticas de referencia y plataformas digitales.
 
 ---
 
-### Recursos en Español
+## 📚 Diccionarios
 
-1.  **DGE en línea (Diccionario Griego-Español)**
-    * La edición digital de los siete volúmenes publicados del DGE, el recurso lexicográfico más importante y exhaustivo en nuestro idioma. Es el estándar académico.
-    * [Visitar el DGE](https://dge.cchs.csic.es/new/)
+### Diccionario Griego-Español (DGE)
+El recurso lexicográfico más exhaustivo y el estándar académico en español. Indispensable para cualquier investigación filológica.
+- **Acceso**: [DGE en línea](https://dge.cchs.csic.es/new/)
 
-2. Manual De Traducción Griega https://archive.org/details/bnavarro-manual-de-traduccion-griega-2019/mode/2up
-
-3.  **Rodríguez Alfageme, Ignacio. *Nueva Gramática Griega*.**
-    * Publicado por Alianza Editorial, es una gramática de referencia moderna, clara y muy bien estructurada, excelente para consulta rápida y estudio sistemático.
-    https://archive.org/details/ignacio-r.-alfageme-nueva-gramatica-griega
-
-4. Jaime Berenguer Amenós, Gramática Griega. https://archive.org/details/jaime-berenguer-amenos-gramatica-griega/mode/2up
-
-5. Nueva Gramática Griega, compuesta con presencia de las que han publicado los mas célebres helenistas de Europa de Antonio Bergnes de las Casas https://archive.org/details/de-las-casas-nueva-gramatica-griega-1833/mode/2up
+### Logeion
+Un potente diccionario en línea de la University of Chicago. Agrega entradas de múltiples léxicos de griego y latín (incluyendo el Liddell-Scott-Jones y el Lewis & Short), permitiendo una consulta simultánea muy eficiente.
+- **Acceso**: [Visitar Logeion](https://logeion.uchicago.edu/)
 
 ---
 
-### Recursos en Inglés
+## ✍️ Gramáticas
 
-6.  **Smyth, Herbert Weir. *Greek Grammar*.**
-    * Publicada por Harvard University Press, es considerada por muchos como la gramática de referencia definitiva y más completa en lengua inglesa. Un recurso monumental.
-    * [Disponible en archive.com](https://archive.org/details/greekgrammar0000smyt/mode/2up)
+### Nueva Gramática Griega
+- **Autor**: Ignacio Rodríguez Alfageme
+- Una gramática de referencia moderna, clara y muy bien estructurada. Excelente tanto para consulta rápida como para el estudio sistemático.
+- **Acceso**: [Consultar en Internet Archive](https://archive.org/details/ignacio-r.-alfageme-nueva-gramatica-griega)
 
-7.  **Perseus Digital Library**
-    * Un proyecto de la Tufts University que ofrece una inmensa colección de textos griegos y latinos, con herramientas morfológicas (análisis de palabras) y diccionarios integrados. Imprescindible.
-    * [Visitar Perseus](http://www.perseus.tufts.edu/hopper/)
+### Greek Grammar
+- **Autor**: Herbert Weir Smyth
+- Considerada por muchos la gramática de referencia definitiva en lengua inglesa. Un recurso monumental por su profundidad y exhaustividad.
+- **Acceso**: [Consultar en Internet Archive](https://archive.org/details/greekgrammar0000smyt/mode/2up)
 
-8.  **Logeion**
-    * Un potente diccionario en línea desarrollado por la University of Chicago que agrega entradas de múltiples léxicos de griego y latín, permitiendo una consulta simultánea muy eficiente.
-    * [Visitar Logeion](https://logeion.uchicago.edu/)
+### Gramática Griega
+- **Autor**: Jaime Berenguer Amenós
+- Una obra clásica y muy respetada en el ámbito hispanohablante. Sigue siendo una referencia fundamental por su rigor y claridad expositiva.
+- **Acceso**: [Consultar en Internet Archive](https://archive.org/details/jaime-berenguer-amenos-gramatica-griega/mode/2up)
+
+---
+
+## 💻 Herramientas y Textos Digitales
+
+### Perseus Digital Library
+Un proyecto de la Tufts University con una inmensa colección de textos griegos y latinos. Ofrece herramientas morfológicas (análisis de palabras) y diccionarios integrados que lo convierten en un recurso imprescindible.
+- **Acceso**: [Visitar Perseus](http://www.perseus.tufts.edu/hopper/)
+
+### Manual de Traducción Griega
+- **Autor**: Bernabé Navarro
+- Un manual práctico enfocado en los desafíos de la traducción del griego al español, con valiosos consejos y ejemplos.
+- **Acceso**: [Consultar en Internet Archive](https://archive.org/details/bnavarro-manual-de-traduccion-griega-2019/mode/2up)
