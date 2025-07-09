@@ -64,12 +64,18 @@ hr {
     margin: 3rem 0;
 }
 
-a {
+/* --- Enlaces: sin subrayado en todos los estados --- */
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
     color: var(--color-primary);
     text-decoration: none;
 }
-a:hover {
-    text-decoration: underline;
+
+a:hover,
+a:focus {
     color: var(--color-primary-hover);
 }
 
@@ -91,6 +97,7 @@ a:hover {
     gap: 12px;
     font-size: 1.4rem;
     font-weight: 600;
+    /* sin subrayado */
     text-decoration: none;
     color: var(--color-text);
 }
@@ -269,13 +276,15 @@ body.dark #virtual-keyboard button:hover {
 }
 
 .lesson-summary .lesson-title a {
+    /* sin subrayado */
     text-decoration: none;
     color: var(--color-text);
 }
 
 .lesson-summary .lesson-title a:hover {
     color: var(--color-primary);
-    text-decoration: underline;
+    /* sin subrayado */
+    text-decoration: none;
 }
 
 .lesson-summary .lesson-meta {
@@ -297,7 +306,8 @@ body.dark #virtual-keyboard button:hover {
 }
 
 .lesson-summary .read-more:hover {
-    text-decoration: underline;
+    /* sin subrayado */
+    text-decoration: none;
     color: var(--color-primary-hover);
 }
 
