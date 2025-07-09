@@ -1,0 +1,255 @@
+/* --- :root - Variables de Color y Fuentes --- */
+:root {
+    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font-serif: Georgia, 'Times New Roman', Times, serif;
+    --color-background: #ffffff;
+    --color-text: #333333;
+    --color-primary: #0056b3;
+    --color-border: #dcdcdc;
+    --color-subtle-bg: #f9f9f9;
+}
+
+/* --- ANULACIÓN DE ESTILOS DEL TEMA --- */
+.main {
+    max-width: none !important;
+}
+
+/* --- Estilos Globales y Tipografía --- */
+body {
+    font-family: var(--font-sans-serif);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans-serif);
+    font-weight: 600;
+}
+
+/* --- Estructura de la Portada --- */
+.main .container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.homepage-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.homepage-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.lesson { width: 100%; }
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--color-border);
+    margin: 3rem 0;
+}
+
+/* --- Secciones de Lectura y Escritura --- */
+#seccion-lectura,
+#seccion-escritura {
+    margin-top: 2rem;
+}
+
+#seccion-lectura h3,
+#seccion-escritura h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: 0.5rem;
+}
+
+#seccion-lectura .content {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* --- Espaciado de Contenido de la Lección --- */
+.content h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content ul,
+.content ol,
+.content p {
+    margin-bottom: 1.25rem;
+}
+
+
+/* --- Elementos Interactivos (Ejercicios y Teclado) --- */
+.exercise { margin-bottom: 2rem; }
+
+.exercise label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+textarea.greek-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-family: var(--font-sans-serif);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background-color: #fff;
+    resize: vertical;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+textarea.greek-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.15);
+}
+
+#virtual-keyboard {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: var(--color-subtle-bg);
+    border-radius: 8px;
+}
+
+#download-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+#download-button:hover { background-color: #00448a; }
+
+/* --- Estilos para Tablas --- */
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+}
+
+.content th,
+.content td {
+    border: 1px solid var(--color-border);
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.content th {
+    background-color: var(--color-subtle-bg);
+    font-weight: 700;
+    white-space: normal;
+}
+
+.content tbody tr:nth-child(even) {
+    background-color: var(--color-subtle-bg);
+}
+
+/* --- Estilos para Modo Oscuro --- */
+.dark .content,
+.dark .content p,
+.dark .content ul,
+.dark .content ol,
+.dark .content li {
+    color: var(--content);
+}
+
+.dark .content th,
+.dark .content td {
+    border-color: var(--border);
+}
+
+.dark .content th,
+.dark .content tbody tr:nth-child(even) {
+    background-color: var(--entry);
+}
+
+/* --- Diseño Responsivo para Móviles --- */
+@media (max-width: 768px) {
+    .main .container {
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
+    .homepage-header h1 { font-size: 2rem; }
+    h3 { font-size: 1.3rem; }
+}
+
+/* --- Estilos para la Lista de Lecciones en la Portada --- */
+
+.lesson-summary {
+    background-color: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.lesson-summary:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dark .lesson-summary:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.lesson-summary .lesson-title a {
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto normal */
+}
+
+.lesson-summary .lesson-title a:hover {
+    color: var(--color-primary); /* Cambia a color primario al pasar el ratón */
+    text-decoration: underline;
+}
+
+.lesson-summary .lesson-meta {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.lesson-summary .lesson-description {
+    color: var(--content);
+}
+
+.lesson-summary .read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.lesson-summary .read-more:hover {
+    text-decoration: underline;
+}

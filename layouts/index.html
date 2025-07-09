@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main class="container">
+    <header class="homepage-header">
+        <h1>Bienvenido a Griego Ático</h1>
+        <p>Un espacio para aprender griego antiguo a tu propio ritmo, lección por lección.</p>
+    </header>
+
+    <div class="lesson-list">
+        {{/* 1. Busca contenido solo en la sección "lecciones".
+          2. Ordena por 'weight' de menor a mayor (1, 2, 3...).
+          3. Toma los primeros 10 resultados.
+        */}}
+        {{ $lecciones := first 10 (where .Site.RegularPages.ByWeight "Section" "lecciones") }}
+
+        {{/* Inicia un bucle para recorrer cada una de las 10 lecciones encontradas */}}
+        {{ range $lecciones }}
+            <article class="lesson-summary">
+                <header>
+                    {{/* El título es un enlace a la página de la lección completa */}}
+                    <h2 class="lesson-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                    <div class="lesson-meta">
+                        <span>{{ .Date.Format "January 2, 2006" }}</span>
+                    </div>
+                </header>
+                <div class="lesson-description">
+                    {{/* Muestra la descripción del front matter como un resumen */}}
+                    <p>{{ .Description | markdownify }}</p>
+                </div>
+                <footer>
+                    <a href="{{ .Permalink }}" class="read-more">Lección completa →</a>
+                </footer>
+            </article>
+        {{ end }}
+    </div>
+
+</main>
+{{ end }}

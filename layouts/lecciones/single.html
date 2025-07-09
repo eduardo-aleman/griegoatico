@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main class="container">
+    
+    <article class="lesson">
+        <header class="post-header">
+            {{/* En una página 'single', .Title se refiere al título de esta lección específica */}}
+            <h1 class="post-title">{{ .Title }}</h1>
+            <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
+        </header>
+
+        <hr>
+
+        <section id="seccion-lectura">
+            <h3><i class="fas fa-book-open"></i> Lectura</h3>
+            <div class="content">
+                {{/* .Content muestra el cuerpo del archivo Markdown de esta lección */}}
+                {{ .Content }}
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="seccion-escritura">
+            <h3><i class="fas fa-pen"></i> Escritura</h3>
+            <p>Responde a las siguientes preguntas basándote en la lectura.</p>
+            
+            <div class="exercises">
+                {{/* .Params.ejercicios se refiere a los ejercicios de esta lección específica */}}
+                {{ range .Params.ejercicios }}
+                <div class="exercise">
+                    <label>{{ .pregunta }}</label>
+                    <textarea class="greek-input" rows="3" placeholder="Escribe tu respuesta aquí..."></textarea>
+                </div>
+                {{ end }}
+            </div>
+            
+            <div id="virtual-keyboard" class="simple-keyboard"></div>
+            <button id="download-button" class="btn">Descargar mis Respuestas</button>
+        </section>
+    </article>
+
+</main>
+{{ end }}

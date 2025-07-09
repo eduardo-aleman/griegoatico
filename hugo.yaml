@@ -1,3 +1,46 @@
-baseURL: "https://griegoatico.org/"
-languageCode: "es"
-title: "Griego Ático"
+baseURL: https://griegoatico.com/
+languageCode: es-es
+title: Griego Ático
+theme: PaperMod
+
+# Habilitar Markdown en el Front Matter
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Parámetros del tema PaperMod
+params:
+  author: ["Eduardo Alemán"]
+  description: "Un sitio para aprender griego ático antiguo."
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  # Configuración del perfil en la portada
+  profileMode:
+    enabled: true
+    title: "Griego Ático"
+    subtitle: "Aprende Griego Antiguo"
+    imageUrl: "/images/atico.svg"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Todas las Lecciones
+        url: "/lecciones"
+
+# Configuración del Menú de Navegación
+# --- CONFIGURACIÓN DEL MENÚ DE NAVEGACIÓN ---
+menu:
+  main:
+    - identifier: lecciones
+      name: Lecciones
+      url: /lecciones/
+      weight: 10
+    - identifier: referencias 
+      name: Referencias      
+      url: /referencias/    
+      weight: 20            
+    # - identifier: sobre
+    #   name: Sobre Mí
+    #   url: /sobre/
+    #   weight: 30

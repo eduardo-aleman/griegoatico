@@ -1,0 +1,17 @@
+{{- /* layouts/partials/extend_head.html */ -}}
+
+{{- /* Procesa nuestro CSS personalizado a través de Hugo Pipes. */ -}}
+{{ $style := resources.Get "css/extended/style.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+
+
+{{- /* Carga los scripts y estilos del teclado en la Portada O en una página de Lección. */ -}}
+{{ if or .IsHome (and (eq .Section "lecciones") (eq .Kind "page")) }}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/css/index.css">
+
+<script defer src="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.js"></script>
+
+<script defer src="/js/app.js"></script>
+
+{{ end }}
