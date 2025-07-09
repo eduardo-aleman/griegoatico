@@ -1,6 +1,6 @@
 ---
 title: "Lección 3: Cantidad Silábica, Acentuación y Contacto Vocálico"
-date: 2025-07-09T10:00:00-07:00
+date: 2025-07-09
 draft: false
 weight: 3
 description: "Explora cómo se forman las sílabas, la diferencia entre vocales breves y largas, las reglas de acentuación y los recursos que el griego ático emplea para evitar el contacto vocálico entre sílabas o palabras."
@@ -11,6 +11,13 @@ ejercicios:
   - pregunta: "Explica qué ocurre con las vocales en φιλέω + ἄνθρωπος. ¿Qué forma adopta la contracción?"
   - pregunta: "Identifica y explica un caso de synízesis en la palabra πόλεως."
 ---
+### 📚 Tabla de contenido del curso
+
+- [Lección 1: El alfabeto griego](../leccion-1/)
+- [Lección 2: Diacríticos y acentos](../leccion-2/)
+- [Lección 3: Contracción y sílabas](../leccion-3/)
+- [Lección 4: Artículo y primera declinación](../leccion-4/)
+- [Lección 5: Verbos y declinación masculina](../leccion-5/)
 
 ## Cantidad Silábica y Acentuación
 
@@ -159,3 +166,4 @@ Este fenómeno **no es exclusivo de la poesía**. También ocurre en la prosa, e
 ## Próximos Pasos
 
 En la siguiente lección aprenderás a reconocer y usar el **artículo definido** en griego antiguo y las formas básicas de los sustantivos de la **primera declinación**. Esto te permitirá formar tus **primeras oraciones completas con sujeto, verbo y complemento**.
+

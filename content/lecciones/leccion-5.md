@@ -1,6 +1,6 @@
 ---
 title: "Lección 5: Sustantivos Masculinos en -ας/-της y Verbos en -ω"
-date: 2025-07-09T12:00:00-07:00
+date: 2025-07-09
 draft: false
 weight: 5
 description: "Aprende a declinar sustantivos masculinos de la primera declinación como νεανίας y πολίτης, y a conjugar verbos en -ω en presente indicativo. Comienza a construir oraciones completas con sujeto, verbo y objeto directo."
@@ -10,6 +10,13 @@ ejercicios:
   - pregunta: "Escribe una oración simple con el verbo γράφω y el sustantivo πολίτης en nominativo."
   - pregunta: "Analiza morfológicamente la frase: ὁ νεανίας γράφει ἐπιστολήν."
 ---
+### 📚 Tabla de contenido del curso
+
+- [Lección 1: El alfabeto griego](../leccion-1/)
+- [Lección 2: Diacríticos y acentos](../leccion-2/)
+- [Lección 3: Contracción y sílabas](../leccion-3/)
+- [Lección 4: Artículo y primera declinación](../leccion-4/)
+- [Lección 5: Verbos y declinación masculina](../leccion-5/)
 
 ## Sustantivos Masculinos de la Primera Declinación
 

@@ -4,6 +4,10 @@ languageCode: "es-es"
 title: "Griego Ático"
 theme: "PaperMod"
 
+# Configuración moderna de paginación (reemplaza paginate)
+pagination:
+  pagerSize: 20  # ✅ Mostrar hasta 20 elementos por página
+
 # Habilitar el renderizado de HTML dentro de los archivos Markdown.
 markup:
   goldmark:
@@ -30,7 +34,6 @@ params:
     enabled: true
     title: "Griego Ático"
     subtitle: "Un Recurso para el Estudio del Griego Antiguo"
-    # Esta imagen también se busca en la carpeta "assets/".
     imageUrl: "images/atico.svg"
     imageWidth: 120
     imageHeight: 120
@@ -43,11 +46,7 @@ params:
 # --- CONFIGURACIÓN DEL MENÚ DE NAVEGACIÓN ---
 menu:
   main:
-    - identifier: "lecciones" # Identificador único
-      name: "Lecciones"       # Texto que se muestra
-      url: "/lecciones/"      # Enlace de destino
-      weight: 10              # Orden de aparición (menor a mayor)
     - identifier: "referencias"
       name: "Referencias"
       url: "/referencias/"
-      weight: 20
+      weight: 10

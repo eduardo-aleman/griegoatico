@@ -5,12 +5,19 @@ draft: false
 weight: 1
 description: "Introducción completa al alfabeto griego antiguo: letras, pronunciación, clasificación, diptongos y reglas clave. Fundamento esencial para leer griego ático con soltura."
 ejercicios:
-  - pregunta: "Escribe el alfabeto griego completo en mayúsculas y minúsculas, sin consultar la tabla. Usa un teclado griego (configúralo si es necesario)."
+  - pregunta: "Escribe el alfabeto griego completo en mayúsculas y minúsculas, sin consultar la tabla. Usa el teclado griego más abajo."
   - pregunta: "Transcribe las siguientes palabras al alfabeto griego: 'logos', 'pathos', 'cosmos'. Verifica tu respuesta con la tabla."
   - pregunta: "Identifica y transcribe los diptongos en la frase: αὐτοῖς ποιεῖ εὖ. ¿Cómo se pronuncian?"
   - pregunta: "¿Cuál es la diferencia entre ς y σ? Da un ejemplo de palabra con cada una."
   - pregunta: "Escucha esta grabación y escribe las letras que escuches. (Opcional) [🎧 Enlace al audio aquí]"
 ---
+### 📚 Tabla de contenido del curso
+
+- [Lección 1: El alfabeto griego](../leccion-1/)
+- [Lección 2: Diacríticos y acentos](../leccion-2/)
+- [Lección 3: Contracción y sílabas](../leccion-3/)
+- [Lección 4: Artículo y primera declinación](../leccion-4/)
+- [Lección 5: Verbos y declinación masculina](../leccion-5/)
 
 ## El Alfabeto Griego: La Puerta al Mundo Clásico
 
@@ -122,3 +129,4 @@ Aprender el alfabeto griego antiguo es el primer paso para leer textos clásicos
 ## Próximos Pasos
 
 Una vez que domines las letras y sus sonidos básicos, estarás listo para la siguiente lección, donde exploraremos los **diacríticos**: los espíritus, acentos y signos que añaden la "música" y la precisión final a la palabra griega.
+

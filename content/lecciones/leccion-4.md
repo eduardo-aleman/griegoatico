@@ -1,6 +1,6 @@
 ---
 title: "Lección 4: El Artículo y la Primera Declinación"
-date: 2025-07-09T11:00:00-07:00
+date: 2025-07-09
 draft: false
 weight: 4
 description: "Conoce el artículo definido en griego antiguo y aprende a declinar sustantivos femeninos de la primera declinación. Incluye paradigmas completos, observaciones morfológicas y ejemplos traducidos para formar tus primeras oraciones."
@@ -10,6 +10,13 @@ ejercicios:
   - pregunta: "¿Por qué algunas palabras de la primera declinación terminan en -ης en lugar de -ας?"
   - pregunta: "Identifica el caso y número de la palabra 'ταῖς γνώμαις' y tradúcela."
 ---
+### 📚 Tabla de contenido del curso
+
+- [Lección 1: El alfabeto griego](../leccion-1/)
+- [Lección 2: Diacríticos y acentos](../leccion-2/)
+- [Lección 3: Contracción y sílabas](../leccion-3/)
+- [Lección 4: Artículo y primera declinación](../leccion-4/)
+- [Lección 5: Verbos y declinación masculina](../leccion-5/)
 
 ## El Artículo Definido
 
@@ -126,3 +133,4 @@ Algunas palabras con **raíces en consonante palatal o dental** adoptan la forma
 ## Próximos Pasos
 
 En la siguiente lección aprenderás los **sustantivos masculinos de la primera declinación** (como νεανίας, πολίτης) y comenzarás a conjugar **verbos en -ω** en presente de indicativo, formando oraciones completas con sujeto, verbo y complemento directo.
+

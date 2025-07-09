@@ -11,6 +11,13 @@ ejercicios:
   - pregunta: "Transforma la frase: 'καλός πατήρ' aplicando el acento grave correctamente."
   - pregunta: "Reescribe la frase 'ἀπὸ ἐμοῦ' aplicando la elisión correctamente."
 ---
+### 📚 Tabla de contenido del curso
+
+- [Lección 1: El alfabeto griego](../leccion-1/)
+- [Lección 2: Diacríticos y acentos](../leccion-2/)
+- [Lección 3: Contracción y sílabas](../leccion-3/)
+- [Lección 4: Artículo y primera declinación](../leccion-4/)
+- [Lección 5: Verbos y declinación masculina](../leccion-5/)
 
 ## La Música del Griego: Diacríticos y Puntuación
 
