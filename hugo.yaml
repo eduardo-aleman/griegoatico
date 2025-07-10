@@ -63,6 +63,6 @@ menu:
       url: "/referencias/"
       weight: 10
     - identifier: "website"
-      name: "ealeman.com"
+      name: "Contacto"
       url: "https://ealeman.com"
       weight: 50
