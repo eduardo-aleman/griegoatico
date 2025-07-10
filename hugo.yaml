@@ -45,7 +45,7 @@ params:
   profileMode:
     enabled: true
     title: "Griego Ático"
-    subtitle: "Un Recurso para el Estudio del Griego Antiguo"
+    subtitle: "Un sitio para aprender griego ático antiguo."
     imageUrl: "images/atico.svg"
     imageWidth: 120
     imageHeight: 120
