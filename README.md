@@ -1,1 +1,1 @@
-griegoatico.com
+Curso de griego ático antiguo. Sitio en construcción.
