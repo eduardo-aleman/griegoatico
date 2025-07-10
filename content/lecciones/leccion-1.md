@@ -11,7 +11,7 @@ ejercicios:
   - pregunta: "¿Cuál es la diferencia entre ς y σ? Da un ejemplo de palabra con cada una."
   - pregunta: "Escucha esta grabación y escribe las letras que escuches. (Opcional) [🎧 Enlace al audio aquí]"
 ---
-### 📚 Tabla de contenido del curso
+## Tabla de contenido del curso
 
 - [Lección 1: El alfabeto griego](../leccion-1/)
 - [Lección 2: Diacríticos y acentos](../leccion-2/)
@@ -23,11 +23,23 @@ ejercicios:
 
 Aprender el alfabeto griego antiguo es el primer paso para leer textos clásicos como los de Tucídides, Platón o Aristóteles. Con solo 24 letras, este sistema ha dado origen a muchas lenguas y términos científicos. En esta lección, aprenderás a reconocer y pronunciar cada letra, incluyendo los diptongos más frecuentes.
 
----
+## Guía de Pronunciación del Griego (Método Erasmiano)
+
+El sistema de pronunciación erasmiano, basado en la gramática histórica, sigue un principio fundamental para leer el griego antiguo: a cada letra le corresponde un único sonido, sin importar su posición en la palabra.
+
+### Regla principal
+
+Toda vocal o consonante se pronuncia siempre de la misma manera, utilizando como referencia los sonidos del castellano.
+
+#### Excepciones importantes
+
+* **Nasalización de la Gamma (γ):** Delante de las consonantes guturales (κ, γ, χ, ξ), la letra gamma adopta un sonido nasal, equivalente a la 'n' de "banco" o "tango".
+* **Pronunciación de Diptongos Clave:** Por convención práctica, los diptongos αυ, ευ y ου se leen como "au", "eu" y "u", respectivamente.
+* **Sonido de la Doble Lambda (λλ):** Es crucial no confundir la doble lambda con el dígrafo "ll" del castellano. Deben pronunciarse como dos letras 'l' consecutivas.
 
 ## Tabla Completa del Alfabeto
 
-| May. | Min. | Nombre (Griego) | Nombre (Español) | Translit. | Pronunciación (Guía Español) |
+| May. | Min. | Nombre (Griego) | Nombre (Español) | Transliteración | Pronunciación |
 |:----:|:----:|:----------------|:-----------------|:----------|:-----------------------------|
 | **Α** | **α** | ἄλφα | Alfa | a | **a**rte |
 | **Β** | **β** | βῆτα | Beta | b | **b**ien |
@@ -54,6 +66,12 @@ Aprender el alfabeto griego antiguo es el primer paso para leer textos clásicos
 | **Ψ** | **ψ** | ψεῖ | Psi | ps | cá**ps**ula |
 | **Ω** | **ω** | ὦ μέγα | Omega | ō | d**o**n |
 
+### Notas Clave
+
+* **Gamma nasal (γ + gutural):** suena como "n" → ἄγγελος (*ángelos*)
+* **Sigma final (ς):** solo se usa al final de palabra → λόγος (*lógos*)
+* **Ípsilon (υ):** se pronuncia como **ü** alemana o **u** francesa
+
 ---
 
 ## Clasificación de las Letras
@@ -72,43 +90,33 @@ Aprender el alfabeto griego antiguo es el primer paso para leer textos clásicos
 
 ### Las Consonantes (τὰ σύμφωνα)
 
-| Mayúscula | Minúscula | Nombre |
-|:---:|:---:|:---|
-| **Β** | **β** | Beta |
-| **Γ** | **γ** | Gamma |
-| **Δ** | **δ** | Delta |
-| **Ζ** | **ζ** | Zeta |
-| **Θ** | **θ** | Theta |
-| **Κ** | **κ** | Kappa |
-| **Λ** | **λ** | Lambda |
-| **Μ** | **μ** | Mi |
-| **Ν** | **ν** | Ni |
-| **Ξ** | **ξ** | Xi |
-| **Π** | **π** | Pi |
-| **Ρ** | **ρ** | Rho |
-| **Σ** | **σ, ς** | Sigma |
-| **Τ** | **τ** | Tau |
-| **Φ** | **φ** | Fi |
-| **Χ** | **χ** | Ji / Chi |
-| **Ψ** | **ψ** | Psi |
+Las consonantes griegas se organizan en varios grupos según su sonido y modo de articulación:
 
----
+#### 1. Oclusivas (o Mudas)
+Son aquellas que interrumpen por completo el flujo de aire. Se organizan de manera sistemática en la siguiente tabla:
 
-## 🧠 Técnicas para Memorizar el Alfabeto
+| | **Labiales**<br>(con los labios) | **Guturales/Velares**<br>(con la parte trasera de la lengua) | **Dentales**<br>(con los dientes) |
+| :--- | :---: | :---: | :---: |
+| **Sonoras** <br>*(vibran las cuerdas vocales)*| β (beta) | γ (gamma) | δ (delta) |
+| **Sordas** <br>*(no vibran las cuerdas vocales)*| π (pi) | κ (kappa) | τ (tau) |
+| **Aspiradas** <br>*(sordas con un soplo de aire)*| φ (fi) | χ (ji) | θ (theta) |
 
-- Divide las letras en 4 grupos de 6 letras.
-- Cántalas como una canción.
-- Escribe las mayúsculas y minúsculas cada día durante una semana.
-- Usa tarjetas o apps como Anki o Quizlet.
-- Crea asociaciones visuales o auditivas para cada letra.
+#### 2. Sonantes (Líquidas y Nasales)
+Incluyen las líquidas y las nasales, caracterizadas por un flujo de aire continuo.
+* **Líquidas:** **λ** (lambda), **ρ** (rho)
+* **Nasales:** **μ** (mu), **ν** (nu)
 
----
+#### 3. Silbante
+Es el sonido "s".
+* **σ** (sigma), y su forma final **ς**.
 
-## Notas Clave
+#### 4. Dobles
+Son letras que representan la unión de dos sonidos consonánticos.
+* **ζ** (dseta)
+* **ξ** (xi)
+* **ψ** (psi)
 
-- **Gamma nasal (γ + gutural):** suena como "n" → ἄγγελος (*ángelos*)
-- **Sigma final (ς):** solo se usa al final de palabra → λόγος (palabra)
-- **Ípsilon (υ):** se pronuncia como **ü** alemana o **u** francesa
+> **Nota sobre las consonantes dobles:** Estas letras son en realidad "atajos" para combinaciones de sonidos: **ξ** equivale a **κσ** (ks) y **ψ** equivale a **πσ** (ps). El sonido de **ζ** es más discutido, pero comúnmente se pronuncia como **ds**.
 
 ---
 
@@ -123,6 +131,11 @@ Aprender el alfabeto griego antiguo es el primer paso para leer textos clásicos
 | **αυ** | au como en auto | aura | αὐτός |
 | **ευ** | eu como en Europa | Eubea | Εὐβοία |
 | **ου** | u como en tú | curso | οὐρανός |
+
+#### Notas sobre los Diptongos
+
+* **Acentos y Espíritus:** Cualquier acento o espíritu que afecte a un diptongo se escribe siempre sobre la **segunda vocal**. Ejemplos: **αἰ**τία, **εἰ**κών, **αὐ**τός, **εὑ**ρίσκω.
+* **Diptongos Impropios (Iota Suscrita):** Cuando una vocal larga (**α, η, ω**) va seguida de una iota, esta última no se pronuncia. Se escribe debajo de la vocal larga y se llama **iota suscrita**: **ᾳ, ῃ, ῳ**. En la pronunciación, simplemente se oye la vocal larga. Ejemplo: en la palabra **τῇ**δε, solo se pronuncia el sonido de la **η**.
 
 ---
 
