@@ -1,8 +1,28 @@
-/* === COMIENZO: CSS ORIGINAL === */
+/* === INICIO: CSS REFACTORIZADO Y UNIFICADO === */
+
+/*
+=======================================================================
+  CAMBIO CLAVE 1: Importación de Fuentes Unificada
+  - Se importa Noto Sans para la UI y Noto Serif para el contenido.
+  - Se incluyen los pesos 400 (normal) y 700 (negrita).
+  - display=swap mejora el rendimiento de carga.
+=======================================================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap');
+
+
 /* --- :root - Variables de Color y Fuentes --- */
 :root {
-    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    --font-serif: Georgia, 'Times New Roman', Times, serif;
+    /*
+    =======================================================================
+      CAMBIO CLAVE 2: Variables de Fuente Robustas
+      - Se definen las nuevas familias de fuentes usando Noto como principal.
+      - Se mantiene el stack de sistema como fallback por si Google Fonts falla.
+    =======================================================================
+    */
+    --font-sans: 'Noto Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-serif: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+
     --color-background: #F9F2E4;
     --color-text: #1E424A;
     --color-primary: #006C7F;
@@ -12,6 +32,7 @@
     --color-table-stripe: #F2E5BF;
     --color-shadow: rgba(40, 60, 65, 0.1);
 }
+
 body.dark {
     --color-background: #1a383d;
     --color-text: #F2E5BF;
@@ -22,10 +43,12 @@ body.dark {
     --color-table-stripe: #20454d;
     --color-shadow: rgba(0, 0, 0, 0.4);
 }
+
 /* --- CONTENEDORES Y TIPOGRAFÍA --- */
 .main {
     max-width: none !important;
 }
+
 .main .container,
 .main .post-single,
 .main .page {
@@ -34,32 +57,40 @@ body.dark {
     margin: 0 auto;
     padding: 2rem 1.5rem;
 }
+
 body {
-    font-family: var(--font-sans-serif);
+    /* CAMBIO CLAVE 3: Se aplica la fuente sans-serif globalmente */
+    font-family: var(--font-sans);
     background-color: var(--color-background);
     color: var(--color-text);
     line-height: 1.6;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-sans-serif);
-    font-weight: 600;
+    /* Los encabezados heredan la fuente de body, pero podemos ser explícitos */
+    font-family: var(--font-sans);
+    font-weight: 700; /* Usamos el peso importado */
     color: var(--color-text);
 }
+
 hr {
     border: none;
     height: 1px;
     background-color: var(--color-border);
     margin: 3rem 0;
 }
+
 a {
     color: var(--color-primary);
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
     color: var(--color-primary-hover);
 }
+
 /* --- CABECERA --- */
 .header {
     background-color: var(--color-subtle-bg);
@@ -73,7 +104,7 @@ a:hover {
     align-items: center;
     gap: 12px;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--color-text);
     text-decoration: none;
 }
@@ -82,9 +113,11 @@ a:hover {
 }
 .logo a:hover img { transform: rotate(-10deg) scale(1.1); }
 #menu { font-size: 1rem; }
+
 /* --- PORTADA --- */
 .homepage-header { text-align: center; margin-bottom: 3rem; }
 .homepage-header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+
 /* --- LECTURA / ESCRITURA --- */
 #seccion-lectura h3,
 #seccion-escritura h3 {
@@ -96,14 +129,18 @@ a:hover {
     border-bottom: 2px solid var(--color-border);
     padding-bottom: 0.5rem;
 }
+
+/* CAMBIO CLAVE 4: La sección de lectura ahora usará Noto Serif */
 #seccion-lectura .content {
     font-family: var(--font-serif);
     font-size: 1.1rem;
     line-height: 1.7;
 }
+
 .content h2 { margin-top: 2.5rem; margin-bottom: 1rem; }
 .content h3 { margin-top: 2rem; margin-bottom: 1rem; }
 .content ul, .content ol, .content p { margin-bottom: 1.25rem; }
+
 /* --- TABLAS --- */
 .content table {
     width: 100%;
@@ -123,6 +160,7 @@ a:hover {
 .content tbody tr:nth-child(even) {
     background-color: var(--color-table-stripe);
 }
+
 /* --- LISTADO DE LECCIONES --- */
 .lesson-summary {
     background-color: var(--color-subtle-bg);
@@ -161,6 +199,7 @@ a:hover {
     text-decoration: underline;
     color: var(--color-primary-hover);
 }
+
 /* --- MÓVIL --- */
 @media (max-width: 768px) {
     .main .container,
@@ -180,7 +219,6 @@ a:hover {
 */
 
 /* --- 1. Botones de Ejercicios y Descarga --- */
-/* Contenedor para alinear los botones de "Responder ejercicio" */
 .exercise-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -188,7 +226,6 @@ a:hover {
     margin: 2rem 0;
 }
 
-/* Estilo base para todos los botones */
 .btn {
     padding: 10px 20px;
     font-size: 0.95rem;
@@ -213,7 +250,6 @@ a:hover {
     transform: translateY(0px) scale(0.98);
 }
 
-/* Estilo específico para el botón principal de descarga */
 #download-button {
     background-color: var(--color-primary);
     color: var(--color-background);
@@ -228,7 +264,6 @@ a:hover {
 
 
 /* --- 2. Ventanas Modales --- */
-/* Fondo oscuro que cubre toda la pantalla */
 #overlay {
     position: fixed;
     inset: 0;
@@ -244,11 +279,10 @@ a:hover {
     visibility: visible;
 }
 
-/* Contenedor del modal (invisible, solo para posicionar el contenido) */
 .modal {
     position: fixed;
     inset: 0;
-    z-index: 1001; /* Encima del overlay */
+    z-index: 1001;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +297,6 @@ a:hover {
     visibility: visible;
 }
 
-/* Contenido visible del modal */
 .modal-content {
     position: relative;
     width: 100%;
@@ -288,7 +321,6 @@ a:hover {
     color: var(--color-primary);
 }
 
-/* Botón para cerrar el modal */
 .modal-close {
     position: absolute;
     top: 12px;
@@ -312,17 +344,26 @@ a:hover {
     background-color: var(--color-subtle-bg);
 }
 
-/* Área de texto para la respuesta del usuario */
+/*
+=======================================================================
+  CAMBIO CLAVE 5: Limpieza de Reglas de Fuente Locales
+  - Se elimina la regla de .greek-input que importaba Noto Sans.
+  - Ahora .greek-input simplemente hereda la fuente correcta (Noto Serif)
+    de manera predecible y consistente con el resto del sitio.
+=======================================================================
+*/
 .greek-input {
     width: 100%;
     padding: 12px;
-    font-family: var(--font-serif);
-    font-size: 1.1rem;
+    font-family: var(--font-serif); /* Usará Noto Serif para una apariencia de "escritura" */
+    font-size: 1.2rem; /* Aumentado ligeramente para mejor legibilidad */
     border: 1px solid var(--color-border);
     border-radius: 8px;
     background-color: var(--color-background);
     color: var(--color-text);
     resize: vertical;
+    line-height: 1.6;
+    font-synthesis: none;
 }
 
 .greek-input:focus {
@@ -333,13 +374,10 @@ a:hover {
 
 
 /* --- 3. Teclado Virtual (simple-keyboard) --- */
-/* Contenedor principal del teclado */
 #virtual-keyboard {
     margin-top: 1.5rem;
-    /* Los estilos ahora se aplican directamente a las clases de la biblioteca */
 }
 
-/* Estilo base del tema del teclado */
 .simple-keyboard.hg-theme-default {
     background-color: var(--color-subtle-bg);
     padding: 1rem;
@@ -347,9 +385,8 @@ a:hover {
     border: 1px solid var(--color-border);
 }
 
-/* Estilo para todos los botones del teclado */
 .simple-keyboard .hg-button {
-    font-family: var(--font-sans-serif);
+    font-family: var(--font-sans); /* Asegura que los botones del teclado usen Noto Sans */
     height: 50px;
     border-radius: 8px;
     border-bottom-width: 3px;
@@ -369,24 +406,22 @@ a:hover {
     box-shadow: none;
 }
 
-/* Estilos para las teclas de diacríticos */
-.simple-keyboard .hg-button[data-value*="\u0301"], /* Agudo */
-.simple-keyboard .hg-button[data-value*="\u0300"], /* Grave */
-.simple-keyboard .hg-button[data-value*="\u0342"], /* Circunflejo */
-.simple-keyboard .hg-button[data-value*="\u0313"], /* E. Suave */
-.simple-keyboard .hg-button[data-value*="\u0314"], /* E. Áspero */
-.simple-keyboard .hg-button[data-value*="\u0345"], /* Iota Suscrita */
-.simple-keyboard .hg-button[data-value*="\u0308"]  /* Diéresis */
-{
+/* Se eliminan los selectores de diacríticos por data-value, ya que ahora son teclas de función */
+.simple-keyboard .hg-button[data-skbtn*="acute"],
+.simple-keyboard .hg-button[data-skbtn*="grave"],
+.simple-keyboard .hg-button[data-skbtn*="circumflex"],
+.simple-keyboard .hg-button[data-skbtn*="psili"],
+.simple-keyboard .hg-button[data-skbtn*="dasia"],
+.simple-keyboard .hg-button[data-skbtn*="iota"],
+.simple-keyboard .hg-button[data-skbtn*="dieresis"] {
     background: var(--color-border);
     font-weight: 700;
 }
 
-.simple-keyboard .hg-button[data-value*="\u0301"]:hover {
+.simple-keyboard .hg-button[data-skbtn*="acute"]:hover {
     background: color-mix(in srgb, var(--color-primary) 20%, var(--color-border));
 }
 
-/* Estilo para la tecla MAYÚSCULA cuando está activa */
 .simple-keyboard .hg-button.hg-activeButton[data-skbtn="{shift}"] {
     background: var(--color-primary);
     color: var(--color-background);
@@ -398,4 +433,40 @@ a:hover {
 .list .post-meta time,
 header .post-meta time {
   display: none !important;
+}
+
+/*
+=======================================================================
+  AJUSTES ADICIONALES PARA MODO OSCURO (LOGO Y TECLADO) 🌙
+=======================================================================
+*/
+
+/* 1. Invierte los colores del logo SVG para que sea visible en fondos oscuros */
+body.dark .logo img {
+  filter: invert(1);
+  transition: filter 0.2s ease-in-out;
+}
+
+
+/* 2. Estilos del Teclado para Modo Oscuro */
+/* Estado por defecto de las teclas normales */
+body.dark .simple-keyboard .hg-button {
+  background: color-mix(in srgb, var(--color-text) 5%, var(--color-background));
+  color: var(--color-text);
+}
+
+/* Estado hover para las teclas normales */
+body.dark .simple-keyboard .hg-button:hover {
+  background: color-mix(in srgb, var(--color-text) 15%, var(--color-background));
+}
+
+/* Estado hover para las teclas de diacríticos */
+body.dark .simple-keyboard .hg-button[data-skbtn*="acute"]:hover,
+body.dark .simple-keyboard .hg-button[data-skbtn*="grave"]:hover,
+body.dark .simple-keyboard .hg-button[data-skbtn*="circumflex"]:hover,
+body.dark .simple-keyboard .hg-button[data-skbtn*="psili"]:hover,
+body.dark .simple-keyboard .hg-button[data-skbtn*="dasia"]:hover,
+body.dark .simple-keyboard .hg-button[data-skbtn*="iota"]:hover,
+body.dark .simple-keyboard .hg-button[data-skbtn*="dieresis"]:hover {
+    background: color-mix(in srgb, var(--color-primary) 25%, var(--color-border));
 }
