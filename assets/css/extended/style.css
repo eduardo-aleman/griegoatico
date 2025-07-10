@@ -57,7 +57,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--color-primary-hover);
 }
 /* --- CABECERA --- */
@@ -386,7 +386,7 @@ a:hover {
     background: color-mix(in srgb, var(--color-primary) 20%, var(--color-border));
 }
 
-/* Estilo para la tecla MAYÚS cuando está activa */
+/* Estilo para la tecla MAYÚSCULA cuando está activa */
 .simple-keyboard .hg-button.hg-activeButton[data-skbtn="{shift}"] {
     background: var(--color-primary);
     color: var(--color-background);
