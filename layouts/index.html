@@ -19,9 +19,6 @@
                 <header>
                     {{/* El título es un enlace a la página de la lección completa */}}
                     <h2 class="lesson-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                    <div class="lesson-meta">
-                        <span>{{ .Date.Format "January 2, 2006" }}</span>
-                    </div>
                 </header>
                 <div class="lesson-description">
                     {{/* Muestra la descripción del front matter como un resumen */}}

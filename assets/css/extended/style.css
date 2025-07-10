@@ -391,3 +391,11 @@ a:hover {
     background: var(--color-primary);
     color: var(--color-background);
 }
+
+/* Ocultar fecha de publicación en todas las vistas */
+.post-meta time,
+.single .post-meta time,
+.list .post-meta time,
+header .post-meta time {
+  display: none !important;
+}

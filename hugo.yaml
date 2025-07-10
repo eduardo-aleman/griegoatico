@@ -12,7 +12,6 @@ languages:
     weight: 1
     languageCode: "es-es"
 
-
 # Configuración moderna de paginación (reemplaza paginate)
 pagination:
   pagerSize: 20  # ✅ Mostrar hasta 20 elementos por página
@@ -31,11 +30,15 @@ params:
   defaultTheme: "auto" # Opciones: "light", "dark", "auto"
   disableThemeToggle: false
 
+  # Ocultar fecha en todas las entradas
+  showPostDate: false
+  showDate: false
+  showReadingTime: false
+
   # Configuración del logo en la cabecera del sitio.
   label:
     text: "Griego Ático"
-    # Hugo buscará este archivo en la carpeta "assets/images/".
-    icon: "images/atico.svg" 
+    icon: "images/atico.svg"
     iconHeight: 40
 
   # Configuración del perfil en la página de inicio.
@@ -49,7 +52,7 @@ params:
     buttons:
       - name: "Explorar Lecciones"
         url: "/lecciones"
-      - name: "Recursos"
+      - name: "Referencias"
         url: "/referencias"
 
 # --- CONFIGURACIÓN DEL MENÚ DE NAVEGACIÓN ---
@@ -59,3 +62,7 @@ menu:
       name: "Referencias"
       url: "/referencias/"
       weight: 10
+    - identifier: "website"
+      name: "ealeman.com"
+      url: "https://ealeman.com"
+      weight: 50
