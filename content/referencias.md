@@ -39,7 +39,7 @@ Una selección de las obras y herramientas más importantes para el estudio seri
 
 ---
 
-### Plataformas Digitales
+### Plataformas digitales
 
 - *Corpus Abierto*. *Repositorio de textos clásicos y herramientas de visualización*. CorpusAbierto, https://corpusabierto.com/.
 
@@ -50,3 +50,12 @@ Una selección de las obras y herramientas más importantes para el estudio seri
 - *Perseus Digital Library*. *Proyecto con textos griegos y latinos, morfología y diccionarios*. Tufts University, http://www.perseus.tufts.edu/hopper/.
 
 - *Thesaurus Linguae Graecae (TLG)*. *Base de datos de textos griegos*. University of California, Irvine, https://stephanus.tlg.uci.edu/.
+
+### Otros libros
+
+- Gignac, Francis T. *A Grammar of the Greek Papyri of the Roman and Byzantine Periods: Phonology.* Italy, Istituto editoriale cisalpino-La goliardica, 1976. Internet Archive, https://archive.org/details/gignac-a-grammar-of-the-greek-papyri-of-the-roman-and-byzantine-periods-vol.-1-phonology-1975/mode/2up.
+
+- Sihler, Andrew L.. New Comparative Grammar of Greek and Latin. United Kingdom, Oxford University Press, 1995. Internet Archive, https://archive.org/details/sihler-andrew-new-comparative-grammar-of-greek-and-latin/mode/2up.
+
+- Threatte, Leslie. The Grammar of Attic Inscriptions: Phonology. Germany, W. de Gruyter, 1980. Internet Archive, https://archive.org/details/leslie-threatte-the-grammar-of-attic-inscriptions-vol-1-phonology.-1-de-gruyter-1980/mode/2up.
+
