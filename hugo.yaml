@@ -1,8 +1,17 @@
 # --- CONFIGURACIÓN PRINCIPAL DEL SITIO ---
 baseURL: "https://griegoatico.com/"
-languageCode: "es-es"
 title: "Griego Ático"
 theme: "PaperMod"
+
+defaultContentLanguage: es
+defaultContentLanguageInSubdir: false
+
+languages:
+  es:
+    languageName: "Español"
+    weight: 1
+    languageCode: "es-es"
+
 
 # Configuración moderna de paginación (reemplaza paginate)
 pagination:

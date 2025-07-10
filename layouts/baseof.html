@@ -5,7 +5,7 @@
 {{- end -}}
 
 <!DOCTYPE html>
-<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+<html lang="{{ .Site.Language.Lang }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
   {{- partial "head.html" . }}
