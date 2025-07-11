@@ -12,23 +12,23 @@ languages:
     weight: 1
     languageCode: "es-es"
 
-# Configuración moderna de paginación (reemplaza paginate)
-pagination:
-  pagerSize: 20  # ✅ Mostrar hasta 20 elementos por página
-
-# Habilitar el renderizado de HTML dentro de los archivos Markdown.
+# --- CONFIGURACIÓN DE MARKDOWN (GOLGMARK) ---
 markup:
   goldmark:
     renderer:
+      # Permite el uso de HTML crudo en archivos Markdown.
+      # Útil, pero no estrictamente necesario para que Mermaid funcione con PaperMod.
       unsafe: true
 
 # --- PARÁMETROS DEL TEMA (PARAMS) ---
 params:
-  author: 
-    - "Eduardo Alemán"
+  # Descripción del sitio y autoría
   description: "Un sitio para aprender griego ático antiguo."
+  author: "Eduardo Alemán" # Corregido: Es más estándar usar un string simple si solo hay un autor.
   defaultTheme: "auto" # Opciones: "light", "dark", "auto"
   disableThemeToggle: false
+
+  # Assets del sitio (iconos, etc.)
   assets:
     favicon: "images/favicon.ico"
     favicon16x16: "images/favicon-16x16.png"
@@ -36,19 +36,13 @@ params:
     apple_touch_icon: "images/apple-touch-icon.png"
     safari_pinned_tab: "images/safari-pinned-tab.svg"
 
-
-  # Ocultar fecha en todas las entradas
-  showPostDate: false
-  showDate: false
-  showReadingTime: false
-
-  # Configuración del logo en la cabecera del sitio.
+  # Configuración del logo en la cabecera
   label:
     text: "Griego Ático"
     icon: "images/atico.svg"
     iconHeight: 40
 
-  # Configuración del perfil en la página de inicio.
+  # Configuración del perfil en la página de inicio
   profileMode:
     enabled: true
     title: "Griego Ático"
@@ -61,6 +55,19 @@ params:
         url: "/lecciones"
       - name: "Referencias"
         url: "/referencias"
+  
+  # --- METADATOS DE LAS ENTRADAS ---
+  # Oculta información que no quieres mostrar en las páginas de contenido.
+  showPostDate: false
+  showReadingTime: false
+
+  # --- CONFIGURACIÓN DE MERMAID (YA ESTABA CORRECTA) ---
+  mermaid:
+    # Habilita Mermaid en todo el sitio.
+    enable: true
+    # Sincroniza el estilo del diagrama con el tema claro/oscuro.
+    # "neutral" es la mejor opción para la compatibilidad con el cambio de tema de PaperMod.
+    theme: "neutral"
 
 # --- CONFIGURACIÓN DEL MENÚ DE NAVEGACIÓN ---
 menu:

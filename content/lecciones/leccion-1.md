@@ -2,7 +2,7 @@
 title: "Lección 1: El Alfabeto Griego y su Pronunciación"
 date: 2025-07-09T01:33:00-07:00
 draft: false
-weight: 1
+weight: 2
 description: "Introducción completa al alfabeto griego antiguo: letras, pronunciación, clasificación, diptongos y reglas clave. Fundamento esencial para leer griego ático con soltura."
 ejercicios:
   - pregunta: "Escribe el alfabeto griego completo en mayúsculas y minúsculas, sin consultar la tabla. Usa el teclado griego más abajo."

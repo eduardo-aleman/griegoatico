@@ -2,7 +2,7 @@
 title: "Lección 2: Diacríticos, Puntuación y Acentos en Griego Antiguo"
 date: 2025-07-09T01:35:00-07:00
 draft: false
-weight: 2
+weight: 3
 description: "Una guía esencial sobre los espíritus (suave, áspero), los acentos (agudo, grave, circunflejo), la puntuación y los fenómenos prosódicos como la elisión y la crasis en griego antiguo."
 ejercicios:
   - pregunta: "Añade el espíritu y el acento agudo correctos a la palabra **anthropos**."

@@ -1,123 +1,120 @@
 ---
-title: "Lección 5: Sustantivos Masculinos en -ας/-της y Verbos en -ω"
-date: 2025-07-09
+title: "Lección 5: Masculinos de la 1ª Declinación y Verbos en -ω"
+date: 2025-07-11
 draft: false
-weight: 5
-description: "Aprende a declinar sustantivos masculinos de la primera declinación como νεανίας y πολίτης, y a conjugar verbos en -ω en presente indicativo. Comienza a construir oraciones completas con sujeto, verbo y objeto directo."
+weight: 6
+description: "Completa la primera declinación con sus sustantivos masculinos (νεανίας, πολίτης) y aprende a conjugar verbos en -ω en presente de indicativo. Esta lección te permitirá construir oraciones completas con sujeto, verbo y objeto directo."
 ejercicios:
-  - pregunta: "Declina completamente el sustantivo νεανίας junto con su artículo definido."
-  - pregunta: "Conjuga el verbo παιδεύω en presente de indicativo activo. Traduce cada forma."
-  - pregunta: "Escribe una oración simple con el verbo γράφω y el sustantivo πολίτης en nominativo."
-  - pregunta: "Analiza morfológicamente la frase: ὁ νεανίας γράφει ἐπιστολήν."
+  - pregunta: "Declina completamente el sustantivo **ὁ στρατιώτης, τοῦ στρατιώτου** (el soldado) junto con su artículo."
+  - pregunta: "Conjuga el verbo **λύω** (desatar, destruir) en presente de indicativo activo y traduce cada forma."
+  - pregunta: "Construye una oración simple en griego usando: el poeta (ποιητής), escribe (γράφει), y la sabiduría (σοφίαν)."
+  - pregunta: "Analiza morfológicamente cada palabra en la frase: **ὁ δεσπότης παιδεύει τοὺς πολίτας.**"
 ---
-### Tabla de contenido del curso
+### Tabla de Contenido del Curso
 
 - [Lección 1: El alfabeto griego](../leccion-1/)
 - [Lección 2: Diacríticos y acentos](../leccion-2/)
-- [Lección 3: Contracción y sílabas](../leccion-3/)
+- [Lección 3: Cantidad Silábica y Acentuación](../leccion-3/)
 - [Lección 4: Artículo y primera declinación](../leccion-4/)
-- [Lección 5: Verbos y declinación masculina](../leccion-5/)
-
-## Sustantivos Masculinos de la Primera Declinación
-
-Aunque la primera declinación es mayoritariamente femenina, algunos **sustantivos masculinos** importantes —especialmente de personas o profesiones— también siguen esta declinación.
-
-### ▸ Características
-
-- Nominativo singular en **-ας** o **-ης**  
-- Genitivo singular en **-ου** (como la segunda declinación)  
-- Vocativo singular en **-α** o **-η** (sin sigma final)
+- [Lección 5: Masculinos de la 1ª Declinación y Verbos en -ω](../leccion-5/)
 
 ---
 
-### ▸ Paradigma: νεανίας (el joven)
+## 1. Completando la Primera Declinación: Los Masculinos
 
-| Caso        | Singular      | Plural       |
-|-------------|---------------|--------------|
-| Nominativo  | ὁ νεανίας       | οἱ νεανίαι     |
-| Genitivo    | τοῦ νεανίου     | τῶν νεανιῶν    |
-| Dativo      | τῷ νεανίᾳ      | τοῖς νεανίαις  |
-| Acusativo   | τὸν νεανία      | τοὺς νεανίας   |
-| Vocativo    | — νεανία       | — νεανίαι     |
+Aunque la primera declinación es predominantemente femenina, incluye un grupo importante de sustantivos **masculinos**, que a menudo se refieren a roles, profesiones u oficios. Se dividen en dos tipos según su terminación en el nominativo: **-ας** y **-ης**.
 
----
+#### Rasgos Distintivos:
+* Usan el **artículo masculino** (`ὁ, τοῦ, τῷ...`).
+* El genitivo singular termina en **-ου**, tomado de la segunda declinación.
+* El vocativo singular termina en **-α**.
 
-### ▸ Paradigma: πολίτης (el ciudadano)
+### Paradigma 1: Sustantivos en -ας
+Ejemplo: **ὁ νεανίας, τοῦ νεανίου** (el joven)
 
-| Caso        | Singular      | Plural       |
-|-------------|---------------|--------------|
-| Nominativo  | ὁ πολίτης       | οἱ πολῖται     |
-| Genitivo    | τοῦ πολίτου     | τῶν πολιτῶν    |
-| Dativo      | τῷ πολίτῃ      | τοῖς πολίταις  |
-| Acusativo   | τὸν πολίτην     | τοὺς πολίτας   |
-| Vocativo    | — πολῖτα       | — πολῖται     |
+| Caso | Singular | Plural |
+| :--- | :--- | :--- |
+| **Nominativo** | ὁ **νεανίας** | οἱ **νεανίαι** |
+| **Genitivo** | τοῦ **νεανίου** | τῶν **νεανιῶν** |
+| **Dativo** | τῷ **νεανίᾳ** | τοῖς **νεανίαις**|
+| **Acusativo** | τὸν **νεανίαν**| τοὺς **νεανίας**|
+| **Vocativo** | ὦ **νεανία** | ὦ **νεανίαι** |
 
-> 📝 **Nota**: Estas palabras mantienen las terminaciones vocálicas de la primera declinación, pero adoptan las **desinencias masculinas del artículo y los casos oblicuos**.
+### Paradigma 2: Sustantivos en -ης
+Ejemplo: **ὁ πολίτης, τοῦ πολίτου** (el ciudadano)
 
----
+| Caso | Singular | Plural |
+| :--- | :--- | :--- |
+| **Nominativo** | ὁ **πολίτης** | οἱ **πολῖται** |
+| **Genitivo** | τοῦ **πολίτου** | τῶν **πολιτῶν** |
+| **Dativo** | τῷ **πολίτῃ** | τοῖς **πολίταις**|
+| **Acusativo** | τὸν **πολίτην**| τοὺς **πολίτας**|
+| **Vocativo** | ὦ **πολῖτα** | ὦ **πολῖται** |
 
-## Verbos en -ω: Presente de Indicativo Activo
-
-Los verbos regulares de la primera conjugación se presentan en su forma básica terminando en **-ω**. Esta forma se llama **primera persona del singular** del **presente de indicativo activo**.
-
-### ▸ Paradigma: παιδεύω (educar)
-
-| Persona             | Forma griega | Traducción         |
-|---------------------|--------------|---------------------|
-| 1ª sing.            | παιδεύω      | yo educo            |
-| 2ª sing.            | παιδεύεις    | tú educas           |
-| 3ª sing.            | παιδεύει     | él/ella educa       |
-| 1ª plural           | παιδεύομεν   | nosotros educamos   |
-| 2ª plural           | παιδεύετε    | vosotros educáis    |
-| 3ª plural           | παιδεύουσι(ν) | ellos educan        |
-
-> 🔍 **Observa** la vocal temática **-ε/-ο**, común en los tiempos presentes. La desinencia **-σι(ν)** en la tercera persona plural lleva **ν movible** si la siguiente palabra inicia en vocal.
+> **Observación Clave:** Nota que el vocativo singular de los sustantivos en `-ης` también termina en `-α` (ej. `πολῖτα`, `δεσπότα`, `στρατιῶτα`).
 
 ---
 
-## Ejemplos Amplios
+## 2. El Corazón de la Oración: Verbos en -ω
+
+Ahora que tenemos sujetos, necesitamos acciones. Los verbos griegos más comunes pertenecen a la conjugación en **-ω**. Su estructura es lógica y predecible.
+
+Un verbo conjugado se compone de tres partes:
+**RAÍZ VERBAL + VOCAL TEMÁTICA + DESINENCIA PERSONAL**
+
+* **Raíz:** Aporta el significado base (ej. **παιδευ-** de *educar*).
+* **Vocal Temática:** Es una vocal de unión, **-ε-** o **-ο-**, que conecta la raíz con la desinencia.
+* **Desinencia Personal:** Indica la persona y el número (quién realiza la acción).
+
+### Paradigma: παιδεύω (educar) — Presente de Indicativo Activo
+
+| Persona | Raíz + Vocal + Desinencia | Forma Griega | Traducción |
+| :--- | :--- | :--- | :--- |
+| 1ª sing. | παιδευ- + -ο- + -ω | **παιδεύω** | yo educo |
+| 2ª sing. | παιδευ- + -ε- + -ις | **παιδεύεις** | tú educas |
+| 3ª sing. | παιδευ- + -ε- + -ι | **παιδεύει** | él/ella/ello educa |
+| 1ª plural| παιδευ- + -ο- + -μεν | **παιδεύομεν** | nosotros/as educamos |
+| 2ª plural| παιδευ- + -ε- + -τε | **παιδεύετε** | vosotros/as educáis |
+| 3ª plural| παιδευ- + -ο- + -νσι| **παιδεύουσι(ν)** | ellos/as educan |
+
+> **Regla de la Vocal Temática:** Se usa **-ο-** ante **μ** o **ν** (en la 1ª pl. y 3ª pl.). Se usa **-ε-** en las demás personas. La terminación de la 3ª plural `-ουσι(ν)` lleva una **ν eufónica** (o movible) que se añade si la palabra siguiente empieza por vocal.
+
+---
+
+## 3. Construyendo Oraciones Completas
+
+¡Es el momento de unirlo todo! Ahora podemos crear oraciones con un sujeto masculino, un verbo en presente y un objeto directo.
 
 ### 📍 Ejemplo 1
+> **ὁ στρατιώτης γράφει ἐπιστολήν.**
+> *El soldado escribe una carta.*
 
-**ὁ νεανίας γράφει ἐπιστολήν.**  
-> *El joven escribe una carta.*
-
-- ὁ νεανίας: nominativo singular, sujeto  
-- γράφει: 3ª persona singular del verbo γράφω (escribir)  
-- ἐπιστολήν: acusativo singular, objeto directo (femenino de 1ª decl.)
-
----
+* **ὁ στρατιώτης**: Sujeto (Nominativo Sing. Masc. de la 1ª decl.).
+* **γράφει**: Verbo (3ª Pers. Sing. del presente de `γράφω`).
+* **ἐπιστολήν**: Objeto Directo (Acusativo Sing. Fem. de `ἐπιστολή`, 1ª decl.).
 
 ### 📍 Ejemplo 2
+> **ὁ ποιητὴς παιδεύει τοὺς νεανίας.**
+> *El poeta educa a los jóvenes.*
 
-**οἱ πολῖται φιλοσοφοῦσι περὶ ἀρετῆς.**  
-> *Los ciudadanos filosofan sobre la virtud.*
-
-- οἱ πολῖται: nominativo plural  
-- φιλοσοφοῦσι: 3ª plural del verbo φιλοσοφέω  
-- περὶ ἀρετῆς: complemento preposicional en genitivo (virtud)
-
----
+* **ὁ ποιητής**: Sujeto (Nominativo Sing. Masc. de la 1ª decl.).
+* **παιδεύει**: Verbo (3ª Pers. Sing. de `παιδεύω`).
+* **τοὺς νεανίας**: Objeto Directo (Acusativo Plural Masc. de `νεανίας`, 1ª decl.).
 
 ### 📍 Ejemplo 3
+> **οἱ πολῖται φιλοῦσι τὴν δημοκρατίαν.**
+> *Los ciudadanos aman la democracia.*
 
-**ὁ διδάσκαλος παιδεύει τοὺς νεανίας.**  
-> *El maestro educa a los jóvenes.*
+* **οἱ πολῖται**: Sujeto (Nominativo Plural Masc. de la 1ª decl.).
+* **φιλοῦσι**: Verbo (3ª Pers. Plural de `φιλέω`*).
+* **τὴν δημοκρατίαν**: Objeto Directo (Acusativo Sing. Fem. de `δημoκρατία`, 1ª decl.).
 
-- ὁ διδάσκαλος: nominativo singular  
-- παιδεύει: 3ª singular  
-- τοὺς νεανίας: acusativo plural
-
----
-
-## Notas Importantes
-
-- El **vocativo singular** pierde la -ς final: νεανία, πολῖτα  
-- El artículo ayuda a **distinguir género y función**  
-- En tercera persona plural, **-ουσι(ν)** puede aparecer sin el ν si no hay vocal siguiente
+*\* `φιλοῦσι` es la forma contraída de `φιλέουσι`. Los verbos contractos son muy comunes y los estudiarás en detalle más adelante.*
 
 ---
 
 ## Próximos Pasos
 
-En la próxima lección estudiarás los **sustantivos neutros de la segunda declinación** y **adjetivos de tres terminaciones**, lo que te permitirá **describir personas y cosas** con mayor precisión.
+¡Felicidades! Has completado los fundamentos de la primera declinación y la conjugación verbal básica. Con estas herramientas ya puedes leer y construir una gran variedad de oraciones sencillas.
+
+En las lecciones siguientes del curso, explorarás la **segunda declinación** (sustantivos masculinos y neutros en `-ος` y `-ον`), los **adjetivos de tres terminaciones** para describir personas y cosas, y los demás tiempos y modos del sistema verbal griego.
