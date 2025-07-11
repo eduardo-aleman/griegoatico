@@ -53,7 +53,7 @@ params:
         url: "/referencias"
   
   # --- METADATOS DE LAS ENTRADAS ---
-  hideMeta: true
+  hideMeta: true # Oculta metadatos como la fecha en las entradas
 
   # --- CONFIGURACIÓN DE MERMAID ---
   mermaid: true
