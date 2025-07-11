@@ -11,7 +11,7 @@ ejercicios:
   - pregunta: "Explica qué ocurre con las vocales en φιλέω + ἄνθρωπος. ¿Qué forma adopta la contracción?"
   - pregunta: "Identifica y explica un caso de synízesis en la palabra πόλεως."
 ---
-### 📚 Tabla de contenido del curso
+### Tabla de contenido del curso
 
 - [Lección 1: El alfabeto griego](../leccion-1/)
 - [Lección 2: Diacríticos y acentos](../leccion-2/)

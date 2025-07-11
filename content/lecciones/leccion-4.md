@@ -10,7 +10,7 @@ ejercicios:
   - pregunta: "¿Por qué algunas palabras de la primera declinación terminan en -ης en lugar de -ας?"
   - pregunta: "Identifica el caso y número de la palabra 'ταῖς γνώμαις' y tradúcela."
 ---
-### 📚 Tabla de contenido del curso
+### Tabla de contenido del curso
 
 - [Lección 1: El alfabeto griego](../leccion-1/)
 - [Lección 2: Diacríticos y acentos](../leccion-2/)

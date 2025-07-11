@@ -10,7 +10,7 @@ ejercicios:
   - pregunta: "Escribe una oración simple con el verbo γράφω y el sustantivo πολίτης en nominativo."
   - pregunta: "Analiza morfológicamente la frase: ὁ νεανίας γράφει ἐπιστολήν."
 ---
-### 📚 Tabla de contenido del curso
+### Tabla de contenido del curso
 
 - [Lección 1: El alfabeto griego](../leccion-1/)
 - [Lección 2: Diacríticos y acentos](../leccion-2/)

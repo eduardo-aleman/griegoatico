@@ -11,7 +11,7 @@ ejercicios:
   - pregunta: "Transforma la frase: 'καλός πατήρ' aplicando el acento grave correctamente."
   - pregunta: "Reescribe la frase 'ἀπὸ ἐμοῦ' aplicando la elisión correctamente."
 ---
-### 📚 Tabla de contenido del curso
+### Tabla de contenido del curso
 
 - [Lección 1: El alfabeto griego](../leccion-1/)
 - [Lección 2: Diacríticos y acentos](../leccion-2/)
@@ -75,13 +75,13 @@ Aunque visualmente similares al español, algunos signos griegos tienen usos muy
 
 Dos fenómenos comunes cuando las palabras se encuentran en el discurso continuo:
 
-### ✂️ Elisión
+### Elisión
 Ocurre cuando una **vocal breve final** se omite delante de otra vocal. Se indica con un **apóstrofo (᾽)**.
 
 - Original: `ἀπὸ ἐμοῦ` (“de mí”)  
 - Con elisión: `ἀπ᾽ ἐμοῦ`
 
-### 🔗 Crasis
+### Crasis
 Fusión de la **vocal final** de una palabra con la **vocal inicial** de la siguiente. Se marca con la **coronis (᾽)**, que parece un espíritu suave.
 
 - Original: `καὶ ἐγώ` (“y yo”)  
