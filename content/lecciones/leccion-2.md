@@ -1,18 +1,23 @@
 ---
-title: "Lección 2: Diacríticos, Puntuación y Acentos"
+title: "Lección 2: Diacríticos, Puntuación y Acentos en Griego Antiguo"
 date: 2025-07-09T01:35:00-07:00
 draft: false
 weight: 2
-description: "Una guía esencial sobre los acentos (agudo, grave, circunflejo), los espíritus (suave, áspero), la puntuación y fenómenos prosódicos como la elisión y la crasis en griego antiguo."
+description: "Una guía esencial sobre los espíritus (suave, áspero), los acentos (agudo, grave, circunflejo), la puntuación y los fenómenos prosódicos como la elisión y la crasis en griego antiguo."
 ejercicios:
   - pregunta: "Añade el espíritu y el acento agudo correctos a la palabra **anthropos**."
-    pista: "Recuerda que empieza por vocal."
+    pista: "Recuerda que empieza por vocal y su sílaba tónica es la primera."
+    respuesta: "ἄνθρωπος"
   - pregunta: "¿Qué signo de puntuación griego se usa para hacer una pregunta? Escribe una pregunta corta usando ese signo."
+    respuesta: "El punto y coma (;). Ejemplo: τί ποιεῖς;"
   - pregunta: "La palabra **κἀγώ** es un ejemplo de crasis. ¿De qué dos palabras proviene?"
-  - pregunta: "Transforma la frase **καλός πατήρ** aplicando el acento grave correctamente cuando va seguida de otra palabra sin pausa."
-  - pregunta: "Reescribe la frase **ἀπὸ ἐμοῦ** aplicando la elisión correctamente."
+    respuesta: "De **καὶ ἐγώ** (y yo)."
+  - pregunta: "Transforma la frase **καλός ἐστι** aplicando el acento grave correctamente."
+    respuesta: "καλὸς ἐστι"
+  - pregunta: "Reescribe la frase **ἀλλὰ ἐγώ** aplicando la elisión correctamente."
+    respuesta: "ἀλλ’ ἐγώ"
 ---
-### 📑 Tabla de contenido del curso
+### Tabla de Contenido del Curso
 
 - [Lección 1: El alfabeto griego](../leccion-1/)  
 - [Lección 2: Diacríticos, Puntuación y Acentos](../leccion-2/)  
@@ -22,130 +27,123 @@ ejercicios:
 
 ---
 
-## 🎶 La “Música” del Griego Antiguo
+## 🎶 La "Música" del Griego Antiguo
 
-El griego clásico utiliza **tres categorías** de signos que no existen en el alfabeto moderno:  
-1. **Espíritus** (respiración)  
-2. **Acentos** (entonación)  
-3. **Puntuación y prosodia** (elisión, crasis)  
+El griego antiguo utiliza marcas gráficas que son esenciales para su correcta pronunciación y lectura. A diferencia del español, estos signos no solo puntúan, sino que también indican la **entonación** y la **aspiración**. Los dividimos en tres grupos principales:
 
-Estos marcan variaciones tonales y prosódicas esenciales para la correcta lectura y comprensión.
+1.  **Espíritus** (aspiración)
+2.  **Acentos** (tono musical)
+3.  **Puntuación y fenómenos prosódicos** (elisión, crasis)
+
+Dominar estos elementos es clave para leer el griego con la fluidez y el ritmo adecuados.
 
 ---
 
-## 1. Espíritus (Respiración)
+## 1. Espíritus (Signos de Aspiración)
 
-**Regla básica:** Toda palabra que empiece por vocal, diptongo o la letra ρ lleva un espíritu:
+**Regla de oro:** Toda palabra que comienza con una **vocal**, un **diptongo** o la letra **rho (ρ)** debe llevar un espíritu. El espíritu indica si la sílaba inicial se pronuncia con una aspiración (similar a una "h" inglesa) o sin ella.
 
-| Espíritu       | Símbolo | Función                          | Ejemplos                          |
-|:--------------:|:-------:|:---------------------------------|:----------------------------------|
-| Suave (blanda) |  ᾽      | Sin aspiración                   | **ἐ**γώ (*egṓ*, “yo”)             |
-| Áspero         |  ῾      | Aspiración suave (sonido “h”)    | **ἡ**μέρα (*hēméra*, “día”)       |
-|                |         | (obligatorio en ρ y algunos dipt.) | **ῥ**ήτωρ (*rhḗtōr*, “orador”)   |
+| Espíritu | Símbolo | Función | Ejemplos |
+| :--- | :---: | :--- | :--- |
+| **Suave** | **᾽** | **Sin aspiración.** No afecta la pronunciación. | **ἐ**γώ (*egṓ*, “yo”)<br>**ἀ**νήρ (*anḗr*, "hombre")|
+| **Áspero** | **῾** | **Con aspiración.** Se pronuncia como un sonido "h" suave al inicio. | **ἡ**μέρα (*hēméra*, “día”)<br>**ὕ**δωρ (*hýdōr*, "agua") |
 
-> **Nota:** El espíritu áspero sobre **ρ** al inicio se transcribe como “rh”.
+**Casos especiales:**
+* La vocal **ípsilon (υ)** y la letra **rho (ρ)** siempre llevan espíritu **áspero** al inicio de palabra.
+    * **ὑπέρ** (*hypér*, "sobre")
+    * **ῥήτωρ** (*rhḗtōr*, “orador”) — se transcribe como **rh** en español y otras lenguas.
+
+> **Colocación:** El espíritu se escribe sobre una vocal minúscula (`ἁ`) y a la izquierda de una mayúscula (`Ἁ`). Si la vocal también lleva acento, el espíritu va primero (`ἄ`).
 
 ---
 
 ## 2. Acentos (Entonación Musical)
 
-El griego tenía un sistema **musical**, no de intensidad. Los acentos marcan **variaciones de tono** sobre la sílaba correspondiente. Solo aparecen en las **tres últimas sílabas** de la palabra (posición proclítica).
+El acento griego era **musical**, no de intensidad como en español. Marcaba una variación en el **tono** de la voz. Por la **ley de limitación**, el acento solo puede aparecer en una de las tres últimas sílabas de una palabra.
 
-| Acento       | Símbolo | Descripción                                          | Ejemplo aislado                  | Ejemplo en frase             |
-|:------------:|:-------:|:-----------------------------------------------------|:---------------------------------|:-----------------------------|
-| Agudo        | ´       | Subida de tono                                        | **ἄ**νθρωπος (*ánthrōpos*, “hombre”) |                               |
-| Grave        | `       | Caída de tono, sustituye al agudo si NO cierra frase  | **καλός** (*kalós*, “bueno”)       | **καλὸς πατήρ** (*kalòs patḗr*) |
-| Circunflejo  | ῀       | Subida y bajada, solo en vocal larga o diptongo       | **δῶ**ρον (*dôron*, “regalo”)     |                               |
+| Acento | Símbolo | Descripción | Ejemplo Aislado | Ejemplo en una Frase |
+| :--- | :---: | :--- | :--- | :--- |
+| **Agudo** | **´** | Indica una **subida** del tono. | **ἄ**νθρωπος (*ánthrōpos*, “ser humano”) | |
+| **Grave** | **`** | Es un acento agudo que **cambia** por un tono más bajo. Ocurre solo cuando a una palabra con acento agudo en la **última sílaba** le sigue otra palabra sin un signo de puntuación fuerte. | **καλός** (*kalós*, “bueno”) | **καλὸς** πατήρ (*kalòs patḗr*, "un buen padre") |
+| **Circunflejo**| **῀** | Indica una **subida y posterior bajada** del tono. Solo puede aparecer sobre una **vocal larga o diptongo** en las dos últimas sílabas. | **δῶ**ρον (*dôron*, “regalo”) | |
 
-> **Observación:** El grave solo aparece en contexto sintáctico, nunca al final de frase.
+> **Nota clave:** El acento grave (` `) es un fenómeno de contexto. Nunca verás una palabra terminada en acento grave al final de una oración o antes de una coma.
 
 ---
 
-## 3. Signos de Puntuación Griega
+## 3. Signos de Puntuación
 
-Aunque visualmente parecidos al español, cambian de uso:
+Aunque algunos signos son visualmente idénticos a los nuestros, su función puede variar.
 
-| Signo | Nombre griego      | Uso principal                        | Equivalente español        |
-|:-----:|:------------------:|:-------------------------------------|:---------------------------|
-|  ,    | koma               | Pausa ligera                         | Coma                       |
-|  .    | teleía             | Final de oración                     | Punto                      |
-|  ·    | ano teleía (·)     | Pausa media / parecido a punto y coma| Punto y coma / dos puntos |
-|  ;    | erótimatiko signo  | Interrogación                        | Signo de interrogación     |
+| Signo | Nombre Griego | Uso Principal | Equivalente en Español |
+| :---: | :--- | :--- | :--- |
+| **,** | κόμμα (*kómma*) | Pausa breve. | Coma (,) |
+| **.** | τελεία (*teleía*) | Final de una oración. | Punto (.) |
+| **·** | ἄνω τελεία (*ánō teleía*) | Pausa media, más fuerte que la coma. | Punto y coma (;) o dos puntos (:) |
+| **;** | ἐρωτηματικόν (*erōtēmatikón*) | Marca una pregunta. | Signo de interrogación (?) |
 
-> **Ejemplo:**  
-> **τί ποιεῖς;** (*tí poieîs?*) – “¿Qué haces?”
+> **Ejemplo de pregunta:**
+>
+> **τί ποιεῖς;** (*tí poieîs?*) – ¿Qué haces?
 
 ---
 
 ## 4. Fenómenos Prosódicos: Elisión y Crasis
 
-### 4.1. Elisión  
-Se omite la **vocal breve final** de una palabra delante de otra que empieza por vocal. Se marca con **apóstrofo (᾽)**.
+Son "atajos" fonéticos que fluidifican el habla y son comunes en poesía y prosa.
 
-```markdown
-ἀπὸ ἐμοῦ   →   ἀπ᾽ ἐμοῦ  
-(de “de mí”)
-````
+### 4.1. Elisión
+
+Ocurre cuando una palabra que termina en **vocal breve** precede a una palabra que empieza por vocal. La vocal final se omite y se reemplaza por un **apóstrofo (᾽)**.
+
+> **ἀλλὰ ἐγώ** → **ἀλλ’ ἐγώ**
+> (*allà egṓ* → *all' egṓ*, "sino yo / pero yo")
 
 ### 4.2. Crasis
 
-Fusión de dos vocales en una sola sílaba, señalada con **coronis (᾽)**, parecido al espíritu suave.
+Es la **fusión** de la vocal final de una palabra con la vocal inicial de la siguiente, creando una sola sílaba larga. Se marca con un signo llamado **coronis (᾽)**, que tiene la misma forma que el espíritu suave.
 
-```markdown
-καὶ ἐγώ   →   κἀγώ  
-(de καί + ἐγώ)
-```
-
-> La crasis es muy común con conjunciones y preposiciones: καί, ἐν, εἰς…
+> **καὶ ἐγώ** → **κἀγώ**
+> (*kaì egṓ* → *kagṓ*, "y yo / yo también")
 
 ---
 
-## 5. Ejemplos Prácticos
+## 5. Ejemplos Prácticos Analizados
 
-1. **Ρωμαῖοι**
+1.  **οἶκος** (*oîkos*, "casa")
+    * Empieza con el diptongo `οι`, por lo que necesita un espíritu. Por defecto, es **suave**: **οἶκος**.
 
-   * Empieza con ρ → lleva espíritu áspero: **ῥωμαῖοι** (*rhōmaîoi*, “romanos”)
+2.  **ἱστορία** (*historía*, "historia")
+    * Empieza con `ι`, vocal que puede llevar cualquier espíritu. En este caso, es **áspero**: **ἱστορία**.
 
-2. **Λόγος**
+3.  **θεός ἐστι** (*theós esti*, "es un dios")
+    * `θεός` tiene acento agudo en la última sílaba. Como le sigue otra palabra (`ἐστι`) sin pausa, el acento agudo se convierte en **grave**: **θεὸς ἐστι**.
 
-   * Vocal inicial λ → lleva espíritu suave: **λόγος** (*lógos*, “palabra”)
-
-3. **Φίλος μου**
-
-   * Agudo en la penúltima sílaba por ser término aislado: **φίλος**
-   * En frase seguida: **φῖλος μου** (circunflejo si largo)
-
-4. **ἔχω ἐλπίδα**
-
-   * Elisión: **ἔχ᾽ ἐλπίδα**
+4.  **ἀπὸ ἐμοῦ** (*apò emoû*, "de mí")
+    * `ἀπὸ` termina en vocal breve (`ο`) y `ἐμοῦ` empieza por vocal. Se produce elisión: **ἀπ’ ἐμοῦ**.
 
 ---
 
 ## 6. Reglas Clave Resumidas
 
-* **Espíritus**: toda palabra que inicie en vocal, diptongo o ρ lleva ᾽ (suave) o ῾ (áspero).
+* **Espíritus**: Toda palabra que inicia en vocal, diptongo o **ρ** lleva un espíritu: suave (`᾽`) o áspero (`῾`). La **ρ** y la **υ** iniciales siempre llevan áspero.
 * **Acentos**:
-
-  * Agudo (´) en la sílaba tónica.
-  * Grave (\`) sustituye al agudo si la palabra prosigue en la oración.
-  * Circunflejo (῀) solo en vocal larga o diptongo, dentro de las dos últimas sílabas.
+    * **Agudo (`´`)**: Tono alto. Puede ir en cualquiera de las tres últimas sílabas.
+    * **Grave (`\``)**: Reemplaza a un agudo en la sílaba **final** de una palabra si le sigue otra palabra tónica.
+    * **Circunflejo (`῀`)**: Tono alto-bajo. Solo sobre vocales largas o diptongos en las dos últimas sílabas.
 * **Puntuación**:
-
-  * Punto alto (·) ≈ punto y coma.
-  * Interrogación griega (;) funciona como nuestro “¿…?”.
-* **Elisión** y **crasis**:
-
-  * Elisión con apóstrofo: suprime vocal breve final.
-  * Crasis con coronis: une dos vocales en una sola emisión.
+    * El punto alto (`·`) equivale a nuestros dos puntos o punto y coma.
+    * El punto y coma griego (`;`) es nuestro signo de interrogación (`?`).
+* **Elisión y Crasis**:
+    * **Elisión**: Usa un apóstrofo (`’`) para omitir una vocal breve final.
+    * **Crasis**: Usa una coronis (`᾽`) para marcar la fusión de dos palabras en una.
 
 ---
 
 ## 7. Sugerencias para el Estudio
 
-* Practica colocando **diacríticos** sobre listas de vocabulario: haz tarjetas con y sin diacríticos.
-* Lee en voz alta pequeñas frases para internalizar cambios tonales.
-* Observa textos auténticos (Píndaro, Platón) y marca manualmente sus acentos y espíritus.
+* Practica colocando diacríticos en listas de vocabulario. Crea tarjetas de memoria con las palabras sin signos y trata de añadirlos tú mismo.
+* Lee en voz alta frases cortas, exagerando la entonación de los acentos para internalizar su función musical.
+* Al leer textos griegos, fíjate en cómo y cuándo aparecen el acento grave, la elisión y la crasis. ¡Son pistas importantes sobre la estructura de la frase!
 
----
-
-En la próxima lección profundizaremos en el **sistema de cantidad vocálica**, la **métrica** y cómo esto determina la estructura de los versos en la poesía griega. ¡Sigue practicando!
+En la próxima lección, profundizaremos en la **cantidad vocálica (vocales largas y breves)**, un concepto fundamental que gobierna muchas de las reglas de acentuación. ¡Sigue adelante!
