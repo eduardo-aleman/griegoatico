@@ -1,7 +1,6 @@
 # --- CONFIGURACIÓN PRINCIPAL DEL SITIO ---
 baseURL: "https://griegoatico.com/"
 title: "Griego Ático"
-theme: "PaperMod"
 
 defaultContentLanguage: es
 defaultContentLanguageInSubdir: false
@@ -61,14 +60,9 @@ params:
   showPostDate: false
   showReadingTime: false
 
-  # --- CONFIGURACIÓN DE MERMAID (YA ESTABA CORRECTA) ---
-  mermaid:
-    # Habilita Mermaid en todo el sitio.
-    enable: true
-    # Sincroniza el estilo del diagrama con el tema claro/oscuro.
-    # "neutral" es la mejor opción para la compatibilidad con el cambio de tema de PaperMod.
-    theme: "neutral"
-
+  # --- CONFIGURACIÓN DE MERMAID ---
+  mermaid: true
+  
 # --- CONFIGURACIÓN DEL MENÚ DE NAVEGACIÓN ---
 menu:
   main:

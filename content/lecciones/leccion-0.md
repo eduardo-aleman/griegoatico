@@ -1,22 +1,10 @@
 ---
-title: "Árbol Genealógico de las Lenguas Indoeuropeas: Un Recorrido por sus Ramas"
-date: 2025-07-11
-weight: 1
+title: "Árbol Genealógico de las Lenguas Indoeuropeas: Un Recorrido por sus Ramas" 
+date: 2025-07-11 
+weight: 1 
 draft: true
 description: "Un análisis detallado de la familia de lenguas indoeuropeas, desde su ancestro común (el protoindoeuropeo) hasta sus principales ramas modernas como la itálica, germánica, indoirania y muchas más. Incluye un diagrama visual completo."
-keywords:
-  - "lenguas indoeuropeas"
-  - "protoindoeuropeo"
-  - "lingüística histórica"
-  - "árbol genealógico de lenguas"
-  - "rama itálica"
-  - "rama germánica"
-  - "rama indoirania"
-  - "latín"
-  - "sánscrito"
 ---
-
-# Árbol Genealógico de las Lenguas Indoeuropeas
 
 ## Introducción
 
@@ -86,7 +74,16 @@ Originada en el norte de Europa, esta rama se divide en tres subgrupos:
   - **Herederos modernos:** Griego moderno.
   - **Dato clave:** Posee un registro escrito ininterrumpido de casi 3,500 años.
 
-Esta rama está representada casi exclusivamente por el **griego** en sus diversas fases históricas. Su forma más antigua documentada es el **griego micénico**, escrito en el silabario **Lineal B**. Más tarde, el **griego clásico**, en su dialecto ático, se convirtió en la lengua de la filosofía y la literatura. A través del griego koiné del período helenístico y el griego bizantino, ha evolucionado hasta el **griego moderno** de hoy.
+La historia de la lengua griega se extiende a través de varios períodos bien definidos. Comienza con la **época micénica** (aprox. 1500-1100 a.C.), cuyos textos datan del 1400 al 1200 a.C. Le sigue el período del **griego antiguo** (aprox. 800-600 a.C.), la lengua de Homero y Hesíodo. La **época clásica** abarca desde el 600 al 300 a.C., seguida por la **época helenística** (aprox. 300 a.C. - 300 d.C.), que incluye la koiné o griego del Nuevo Testamento. El **griego medio** se extiende desde el 300 hasta el 1600 d.C., subdividido en el período **bizantino** (hasta el 1100) y el **medieval** (hasta el 1600). Finalmente, el **griego moderno** surge alrededor del 1600 y continúa hasta hoy.
+
+La lengua griega antigua no era uniforme; existían notables diferencias dialectales entre la Grecia continental, las islas del Egeo y Asia Menor. Estas variantes se clasifican en dos grandes grupos prehistóricos: el griego nordoriental/occidental y el griego meridional/oriental. Una distinción clave es que el primer grupo (que incluye los dialectos **dórico** y **eólico**) conservó el sonido indoeuropeo `*-ti`, mientras que el segundo grupo (que agrupa al **ático-jónico**, **arcado-chipriota** y **micénico**) lo transformó.
+
+Los principales dialectos literarios fueron:
+
+  * **Ático**: El dialecto de Atenas y la península del Ática. Gracias al prestigio cultural de Atenas, se convirtió en la lengua de una vasta literatura que incluye a los trágicos Esquilo, Sófocles y Eurípides; el filósofo Platón; y los historiadores Tucídides y Jenofonte.
+  * **Jónico**: Originalmente una variante del ático-jónico, se habló en las islas Cícladas y Asia Menor. El dialecto épico de la *Ilíada* y la *Odisea* de Homero es una forma literaria tradicional basada principalmente en el jónico, pero mezclada con elementos eólicos y arcaísmos de la época micénica. El historiador Heródoto también escribió en prosa jónica.
+  * **Eólico**: Hablado en Tesalia, Beocia y la isla de Lesbos. Sus testimonios literarios más importantes son los poemas de Safo y Alceo, ambos de Mitilene, en Lesbos.
+  * **Dórico**: Una extensa subfamilia hablada en gran parte del Peloponeso y en colonias como las del sur de Italia. El poeta lírico espartano Alcmán escribió en un dórico literario con influencias eólicas. Este dialecto también aparece en fragmentos de comedias de Aristófanes y sobrevive en cierta medida en el tsakoniano moderno.
 
 ### Rama Indoirania
 
