@@ -51,6 +51,8 @@ Una selección de las obras y herramientas más importantes para el estudio seri
 
 - *Thesaurus Linguae Graecae (TLG)*. *Base de datos de textos griegos*. University of California, Irvine, https://stephanus.tlg.uci.edu/.
 
+---
+
 ### Otros libros
 
 - Gignac, Francis T. *A Grammar of the Greek Papyri of the Roman and Byzantine Periods: Phonology.* Italy, Istituto editoriale cisalpino-La goliardica, 1976. Internet Archive, https://archive.org/details/gignac-a-grammar-of-the-greek-papyri-of-the-roman-and-byzantine-periods-vol.-1-phonology-1975/mode/2up.
