@@ -1,169 +1,128 @@
 ---
 title: "Lección 3: Cantidad Silábica, Acentuación y Contacto Vocálico"
-date: 2025-07-09
+date: 2025-07-11
 draft: false
 weight: 3
-description: "Explora cómo se forman las sílabas, la diferencia entre vocales breves y largas, las reglas de acentuación y los recursos que el griego ático emplea para evitar el contacto vocálico entre sílabas o palabras."
+description: "Explora cómo se forman las sílabas, la diferencia entre vocales breves y largas, las reglas de acentuación y los recursos que el griego ático emplea para evitar el hiato."
 ejercicios:
-  - pregunta: "Divide en sílabas la palabra ἀνθρωπος y marca la cantidad (breve o larga) de cada vocal."
-  - pregunta: "¿Puede llevar acento agudo una palabra con una sílaba larga en la antepenúltima? ¿Por qué?"
-  - pregunta: "Clasifica la vocal de cada una de estas palabras como breve, larga o variable: ἡμέρα, λόγος, παιδεία."
-  - pregunta: "Explica qué ocurre con las vocales en φιλέω + ἄνθρωπος. ¿Qué forma adopta la contracción?"
-  - pregunta: "Identifica y explica un caso de synízesis en la palabra πόλεως."
+  - pregunta: "Divide en sílabas la palabra **ἄνθρωπος** y determina la cantidad (breve o larga) de cada sílaba."
+    respuesta: "ἄν-θρω-πος. 1ª (αν): breve por vocal, pero larga por posición (seguida de νθ). 2ª (θρω): larga por naturaleza (vocal ω). 3ª (πος): breve por naturaleza (vocal ο)."
+  - pregunta: "La palabra **ἀνθρώπου** tiene la última sílaba larga (-ου). Según las reglas de acentuación, ¿dónde debe ir el acento y por qué?"
+    respuesta: "El acento debe ir en la penúltima sílaba (**ἀνθρώπου**). La ley de limitación impide que el acento vaya en la antepenúltima si la última sílaba es larga."
+  - pregunta: "¿Qué forma contraída adopta el verbo **τιμάετε** (vosotros honráis)?"
+    respuesta: "Se contrae en **τιμᾶτε**. La secuencia α + ε se contrae en α larga (ᾱ)."
+  - pregunta: "Añade la **ν eufónica** (o movible) a la palabra **πᾶσι** en la frase 'lo dio a todos los hombres' (**ἔδωκε πᾶσι ἀνθρώποις**)."
+    respuesta: "ἔδωκε**ν** πᾶσι**ν** ἀνθρώποις. Tanto el verbo como el dativo plural pueden añadir una -ν para evitar el hiato."
+  - pregunta: "En la palabra **πόλεως** (de la ciudad), las vocales -εω- a menudo se pronunciaban como una sola sílaba sin cambiar la ortografía. ¿Cómo se llama este fenómeno?"
+    respuesta: "Synízesis (συνίζησις)."
 ---
-### Tabla de contenido del curso
+### Tabla de Contenido del Curso
 
 - [Lección 1: El alfabeto griego](../leccion-1/)
 - [Lección 2: Diacríticos y acentos](../leccion-2/)
-- [Lección 3: Contracción y sílabas](../leccion-3/)
+- [Lección 3: Cantidad Silábica y Acentuación](../leccion-3/)
 - [Lección 4: Artículo y primera declinación](../leccion-4/)
 - [Lección 5: Verbos y declinación masculina](../leccion-5/)
 
-## Cantidad Silábica y Acentuación
+---
 
-La correcta colocación del acento en griego antiguo depende de:
+## 1. Cantidad Vocálica y Silábica
 
-1. La cantidad de las vocales y sílabas (breves o largas)  
-2. La posición del acento (últimas tres sílabas)
+La acentuación en griego antiguo no depende del énfasis, sino de la **cantidad** (o duración) de las sílabas. Entender este concepto es fundamental.
 
-### ▸ Vocales
+### Cantidad de las Vocales
 
-- **Breves**: ε, ο  
-- **Largas**: η, ω  
-- **Variables**: α, ι, υ (dependen del contexto)
+Las vocales se clasifican por su duración intrínseca:
 
-### ▸ Diptongos
+* **Breves por naturaleza**: **ε, ο**
+* **Largas por naturaleza**: **η, ω**
+* **Anfibológicas (variables)**: **α, ι, υ** (pueden ser breves o largas según la palabra).
 
-Todos los diptongos (αι, ει, οι, αυ, ευ, ου, υι) son **largos por naturaleza**, aunque ει y ου pueden ser tratados como breves en ciertas formas gramaticales.
+### Cantidad de las Sílabas
 
-### ▸ Sílaba larga
+Una sílaba se considera **larga** en dos casos:
 
-- Por **naturaleza**: si contiene vocal larga o diptongo  
-- Por **posición**: si vocal breve va seguida de dos consonantes
+1.  **Por naturaleza**: Si contiene una vocal larga (η, ω, ᾱ, ῑ, ῡ) o un diptongo (αι, ει, οι, υι, αυ, ευ, ου).
+2.  **Por posición**: Si su vocal, aunque sea breve, va seguida de dos o más consonantes (o una consonante doble: ζ, ξ, ψ).
+    * Ejemplo: En **ἄνθρωπος**, la primera sílaba (ἄν-) es larga por posición porque a la vocal breve `α` le siguen `ν` y `θ`.
+
+Si una sílaba no cumple ninguna de estas condiciones, es **breve**.
 
 ---
 
-## Reglas de Acentuación
+## 2. Las Reglas de Oro de la Acentuación
 
-| Regla | Descripción | Ejemplo | Válido |
-|:-----|:------------|:--------|:------:|
-| 1 | Acento solo en las tres últimas sílabas | **ἄ**νθρωπος | ✅ |
-| 2 | Circunflejo solo en las dos últimas sílabas | **δῶ**ρον | ✅ |
-| 3 | Antepenúltima solo si última es breve | **ἄ**νθρωπος (–ος) | ✅ |
-|   | | *ἄνθρωπός* (–ός = larga) | ❌ |
+La colocación del acento se rige por la cantidad de las sílabas, especialmente la última.
 
----
+| Regla | Descripción | Ejemplo Válido | Ejemplo No Válido |
+|:---|:---|:---|:---|
+| **Ley de Limitación** | El acento solo puede recaer en una de las **tres últimas sílabas**. | **ἄ**νθρωπος | *τέταρτος* (acento en la 4ª sílaba) |
+| **Ley de la Antepenúltima** | El acento solo puede ir en la antepenúltima si la **última sílaba es breve**. | **ἄ**νθρωπος (última sílaba `-ος` es breve) | **ἀνθρώπου** (última sílaba `-ου` es larga, el acento debe retroceder) |
+| **Regla del Circunflejo** | Un acento circunflejo (`῀`) solo puede aparecer sobre una **sílaba larga**. Además, si está en la penúltima, la última sílaba **debe ser breve**. | **δῶ**ρον (última sílaba `-ον` es breve) | **δούλου** (última sílaba `-ου` es larga, por eso lleva agudo `´` y no circunflejo) |
 
-## Contacto de Vocales y Hiato
-
-El griego, especialmente en el dialecto **ático**, evita la sucesión de dos sonidos vocálicos en sílabas contiguas. Para resolver esta colisión entre vocales se usan distintos recursos, según si ocurre dentro de una palabra o entre palabras.
-
----
-
-### 1. Contracción (συστολή)
-
-**Cuando dos vocales se encuentran dentro de una palabra**, se fusionan en una sola vocal larga o diptongo.
-
-#### ▸ Tabla expandida de contracción vocálica
-
-| + | α | ε | η | ι | ο | ω | υ |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **α** | α | α | α | ᾳ | ω | ω | αυ |
-| **ε** | α | ει | η | ει | ου | ω | ευ |
-| **η** | η | η | η | ῃ | ω | ω | ηυ |
-| **ι** | ᾳ | ει | ῃ | ι | οι | ῳ | υι |
-| **ο** | ω | ου | ω | οι | ου | ου | ου |
-| **ω** | ω | ω | ω | ῳ | ου | ω | ω |
-| **υ** | αυ | ευ | ηυ | υι | ου | ω | υ |
-
-#### ▸ Ejemplos comunes de contracción
-
-| Original | Contraído | Significado |
-|----------|-----------|-------------|
-| φιλέω | φιλῶ | amo |
-| ποιέω | ποιῶ | hago |
-| τιμάω | τιμῶ | honro |
-| ἀγαπάω | ἀγαπῶ | amo |
-| τελέω + ω | τελῶ | cumpliré |
+> **¡Regla clave para la acentuación!**
+> Los diptongos finales **-αι** y **-οι** se consideran **breves** al determinar la posición del acento (excepto en el optativo y el locativo).
+> Ejemplo: **ἄνθρωποι** (la sílaba final `-οι` cuenta como breve, permitiendo el acento en `ἄν-`).
 
 ---
 
-### 2. Elisión (ἔλλειψις)
+## 3. El "Miedo al Hiato": Contacto Vocálico
 
-**Elimina una vocal breve al final de palabra** cuando la siguiente comienza por vocal. Se marca con apóstrofo (᾽).
+Al griego ático no le gustaba el **hiato**, es decir, el sonido que se produce al encontrarse dos vocales en sílabas contiguas. Para evitarlo, utilizaba varios recursos fonéticos.
 
-#### ▸ Ejemplos:
+### A. Dentro de una palabra: Contracción
 
-| Original | Elisión | Traducción |
-|----------|---------|------------|
-| ἀπὸ ἐμοῦ | ἀπ᾽ ἐμοῦ | de mí |
-| διὰ ἀνδρός | δι᾽ ἀνδρός | por un hombre |
-| κατὰ ἔθνος | κατ᾽ ἔθνος | según la nación |
+La **contracción** (en griego συναίρεσις, *synaíresis*) es la fusión de dos vocales contiguas dentro de una misma palabra en una sola vocal larga o diptongo. Es extremadamente común en los verbos.
 
----
+**Ejemplos de contracción verbal:**
 
-### 3. Crasis (κρᾶσις)
+| Verbo Original | Proceso | Forma Contraída | Significado |
+|:---|:---|:---|:---|
+| φιλέω | φιλέ-ω → φιλῶ | **φιλῶ** | "amo" |
+| ποιέετε | ποιέ-ετε → ποιεῖτε | **ποιεῖτε** | "hacéis" |
+| τιμάομεν | τιμά-ομεν → τιμῶμεν | **τιμῶμεν** | "honramos" |
 
-**Fusión de dos palabras** en una sola cuando terminan y empiezan con vocal. Se marca con la **coronis (᾽)** sobre la vocal resultante.
+### B. Entre palabras: Mecanismos para Evitar el Hiato
 
-#### ▸ Ejemplos de crasis:
+#### 1. Elisión
+Es la eliminación de una vocal breve al final de una palabra cuando la siguiente comienza por vocal. Se marca con un apóstrofo (`’`).
 
-| Original | Con crasis | Traducción |
-|----------|------------|------------|
-| καὶ ἐγώ | κἀγώ | y yo |
-| καὶ ἐστίν | κἔστιν | y es |
-| καὶ ἄλλος | κἄλλος | y otro |
+> **ἀπὸ ἐμοῦ** → **ἀπ’ ἐμοῦ** (*de mí*)
+> **μετὰ αὐτόν** → **μετ’ αὐτόν** (*después de él*)
 
----
+#### 2. Crasis
+Es la fusión de dos palabras en una. Ocurre típicamente entre un artículo o una conjunción y la palabra siguiente. Se marca con una **coronis** (`᾽`) sobre la vocal fusionada.
 
-### 4. Aféresis (ἀφαίρεσις)
+> **καὶ ἐγώ** → **κἀγώ** (*y yo*)
+> **τὸ ὄνομα** → **τοὔνομα** (*el nombre*)
 
-**Supresión de la vocal inicial** de una palabra, especialmente en partículas o pronombres. Muy común en la prosa ática.
+#### 3. La ν Eufónica (o Movible)
+Para evitar el hiato, ciertas palabras que terminan en vocal pueden añadir una **-ν** (llamada ν ἐφελκυστικόν) si la palabra siguiente empieza por vocal o al final de una frase.
 
-#### ▸ Ejemplos:
+Las palabras más comunes que usan la ν eufónica son:
+* Verbos en tercera persona del singular (ej: **λέγει** → **λέγειν**)
+* La tercera persona del plural de verbos (ej: **λέγουσι** → **λέγουσιν**)
+* El dativo plural en **-σι** (ej: **πᾶσι** → **πᾶσιν**)
+* El verbo **ἐστί** → **ἐστίν**.
 
-| Forma plena | Con aféresis | Comentario |
-|-------------|---------------|------------|
-| ἐμέ | μ᾽ | me |
-| ἐγώ | γώ | (poético o enfático) |
-| ἔχω | χῶ | (forma contraída en compuestos) |
-
----
-
-### 5. Consonante Movible (ν ἐφελκυστικόν)
-
-Algunas palabras pueden añadir una **-ν** al final si la siguiente palabra empieza por vocal, para **evitar el hiato** o por eufonía.
-
-#### ▸ Ejemplos:
-
-| Sin ν | Con ν | Contexto |
-|-------|-------|----------|
-| ἐστί | ἐστίν ὁ θεός | delante de vocal |
-| λέγει | λέγειν ὅτι | infinitivo + vocal |
-| ἔστι | ἔστιν ὁ πατήρ | verbo copulativo + vocal |
+> **Ejemplo:**
+> * ἔδωκε δῶρον. (*Dio un regalo.*)
+> * ἔδωκε**ν** **ἀ**νδρί. (*Se lo dio a un hombre.*) — La **-ν** se añade para romper el hiato entre `ε` y `α`.
 
 ---
 
-## Synízesis (συνίζησις)
+## 4. Synízesis (Pronunciación, no Escritura)
 
-Cuando **dos vocales consecutivas se pronuncian como una sola sílaba**, sin cambiar la escritura, se llama **synízesis**.
+La **synízesis** (συνίζησις, "colapso") es un fenómeno fonético donde dos vocales contiguas, que gramaticalmente pertenecen a dos sílabas distintas, se pronuncian como **una sola sílaba**. A diferencia de la contracción, **la ortografía no cambia**.
 
-Este fenómeno **no es exclusivo de la poesía**. También ocurre en la prosa, especialmente en formas fijas, derivadas o arcaicas.
+Es común en poesía para ajustar la métrica, pero también aparece en la prosa en palabras de uso frecuente.
 
-#### ▸ Ejemplos claros de synízesis:
-
-| Palabra | Análisis | Comentario |
-|---------|----------|------------|
-| βέλεα | βέ-λεα → βέ-λᾱ | Las dos vocales se pronuncian juntas |
-| πόλεως | πό-λε-ως → πό-λως | -εω- se contrae en una sílaba |
-| Πηληϊάδεω | Πη-λη-ϊά-δε-ω → Πη-λη-ά-δε-ω | ϊ con synízesis |
-| χρυσέῳ | χρυ-σέ-ῳ → χρυ-σῷ | combinación vocal larga |
-
-> La synízesis permite que **dos vocales** que normalmente formarían **dos sílabas gramaticales** cuenten como **una sola sílaba fonética**.
+**Ejemplos claros:**
+* **πόλεως** (genitivo de πόλις, "ciudad"): Gramaticalmente es `πό-λε-ως` (3 sílabas), pero se pronunciaba `πό-λως` (2 sílabas).
+* **θεός** (dios): Gramaticalmente es `θε-ός` (2 sílabas), pero en poesía a menudo cuenta como una sola sílaba.
 
 ---
 
 ## Próximos Pasos
 
-En la siguiente lección aprenderás a reconocer y usar el **artículo definido** en griego antiguo y las formas básicas de los sustantivos de la **primera declinación**. Esto te permitirá formar tus **primeras oraciones completas con sujeto, verbo y complemento**.
-
+Has dominado los cimientos de la fonética y acentuación griega. En la siguiente lección, daremos un paso crucial: aprenderás a usar el **artículo definido** (el, la, los, las) y a declinar los sustantivos de la **primera declinación** (la mayoría femeninos). Con esto, estarás listo para construir tus primeras oraciones con sentido completo.
