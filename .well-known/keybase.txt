@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/ealeman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://griegoatico.com
+  * I am ealeman (https://keybase.io/ealeman) on keybase.
+  * I have a public key with fingerprint 44CD 727C 8441 F93A 86FA  89DE 949F 3A67 CBEA 528E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209e5b03fe218c8967f37e1c9c8f1f635ad6128b9cabb3b7fda0c2e674b52ba0840a",
+      "fingerprint": "44cd727c8441f93a86fa89de949f3a67cbea528e",
+      "host": "keybase.io",
+      "key_id": "949f3a67cbea528e",
+      "kid": "0101e270ed8f34f26e556342dacf466633928cf51999f76c9392a14dcd09a12c4c830a",
+      "uid": "a3e839646c9bf4146ca11cf0e8e3df19",
+      "username": "ealeman"
+    },
+    "service": {
+      "hostname": "griegoatico.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1752356205,
+  "expire_in": 157680000,
+  "prev": "9197b3d1f01c55751aedffc85e44ea7abf09d9a32831ffd26cd290982085e1f7",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtkntQ1FUUxxcUQwZzeYzkoFC/HgMK9Hs/duwBQkJN5IAaZbjc3/3du/wGdhd2
+l8WFcIYRH5g8CuRRPIpJbAyZMh4pElm+EOkxQo1opgs5PkIhfJQB028Z+a/7z5l7
+7uf7veecOZVLFuh8vaqbDaaBmynlXgM3ZF2mbbiwkJCtioswFBJZaC6gbAXZHcYs
+VSEMBEnRpIQ4mWQwoikRihIvYEZAFJSgiCnMMxxQeIoWZQkCWWZkASuAhDTiBVbm
+aBmQIksCIorAqsWEbDk21eLQbFkWKgItQJFlKSwxQOQxECUFSayEGcALUEaAo0Wk
+CTOtdo9CK04GdhSjWrWcdjHOlfc//HzdJIVogUSKiBkW0zziOJ5haQVAzPI8zzAS
+LULMUZIkYYGHknYHFKtAhZQARUMWisxc3XlzdoBBIiPxrAbKmKW0CCgKYhKJiFEw
+JXlAO7JZgBlpNALZyAwsRFEUoSWdKkSeuXoaeQSYbCoyWYFDhdYYaDVr6hyb1WGF
+1mztMdPhyLEbPGKHK8dD5yPZ+MjHKKsWRZukpnAim121WggDpZHQoXqMKYGjGY6n
+SS6KQFtzVBsyqh6CE3iR1I7nH+T0zI2SBHkzo1CYpCDHCRwFkIIxFDnEsggIQMak
+pEiAoUWGwliheajQEimJNKkhFBYIT2u5FithoDVXBzBppnbVZAGOPBsiivxKvZmF
+Oi9f3cplTy2MH7S9WxL7j2Hnw9LL8+vn4+3ZPZ3fYv18ZtxHr2vUF2185gpr1gev
+c15LgyHbNyTAlzM/G4lbmwxfahYWV1zsBWtGB4BceiryyBcu+opPPP7r/YDp5pBD
+x97aEHDcoO96etXqQO652E1ssWzr/+ZCWcPtc+3r9+xoSY/rbw/2Tnwveb2YtPLn
+9G49uWX8dGXts23+NbOHC2vL1ub21DWsSb5bFeYsahpqW3UyLSai43JlHedVP/lH
+0tirBbmlnSvyll46C4oI/4yUjKAdIeYfP/RqbQwWDkXmh3YFPHFjsin36vWjSZtv
+GSOY2rJRX11FaVrJ/gc+wp648J++68xL/7YvKju27kBY11jFUNXeh6lt92afb5mK
+HF7RdPHLE3G9J7f3Frwd2DHrc+DTqGsHP3jhjP5zXfldN1XVHX2qZFNHgXpeX5lp
+cU6/5prRp1XX9m+r+2W5e2lQgyux9YeIxn9f72hZvsu+zjxS0xT/lWWjOfCTj92R
+uzITk2aOhIfFH+12yR9VLxqdLCm6E207H1q3/8xIVsr37t/vNI71Jd8KLF6UQjdN
+jK3d7Z68/megNP51W6ipZ9kwLtt9wW9owXR/StC9B1mDb1h+9X9s37bmzrNbwg6O
+kff3/fb3sTzX/cTUqZ6ZcXda8XHnbHDrjDX1xF7hcLqwZCu+1Fx/81xJUEbfVE14
+8ptZeZNPTu18Z2J1z0TDxOn86PZXyl9MSbhal6Crfzyy6vbgfw==
+=y2qq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ealeman
+
+==================================================================
