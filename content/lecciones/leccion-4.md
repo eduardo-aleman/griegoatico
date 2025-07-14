@@ -1,7 +1,7 @@
 ---
 title: "Lección 4: El Artículo Definido y la 1ª Declinación (Sustantivos Femeninos)"
 date: 2025-07-11
-draft: false
+draft: true
 weight: 5
 description: "Domina el artículo definido en griego antiguo y aprende a declinar los sustantivos femeninos de la primera declinación. Esta lección desglosa los paradigmas en alfa pura, eta y alfa impura, con reglas de acentuación y ejemplos prácticos."
 ejercicios:

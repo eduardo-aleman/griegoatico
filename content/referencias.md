@@ -37,6 +37,8 @@ Una selección de las obras y herramientas más importantes para el estudio seri
 
 - Wikipedia. *Gramática del griego antiguo*. Wikipedia, https://es.wikipedia.org/wiki/Gram%C3%A1tica_del_griego_antiguo.
 
+- Zuntz, Günther, 1902-1992. Greek : a Course in Classical and Post-Classical Greek Grammar from Original Texts. Sheffield :Sheffield Academic Press, 1994.
+
 ---
 
 ### Plataformas digitales

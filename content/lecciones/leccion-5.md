@@ -1,7 +1,7 @@
 ---
 title: "Lección 5: Masculinos de la 1ª Declinación y Verbos en -ω"
 date: 2025-07-11
-draft: false
+draft: true
 weight: 6
 description: "Completa la primera declinación con sus sustantivos masculinos (νεανίας, πολίτης) y aprende a conjugar verbos en -ω en presente de indicativo. Esta lección te permitirá construir oraciones completas con sujeto, verbo y objeto directo."
 ejercicios:
