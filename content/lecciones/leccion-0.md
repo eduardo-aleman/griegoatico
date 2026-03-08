@@ -2,7 +2,7 @@
 title: "Árbol Genealógico de las Lenguas Indoeuropeas: Un Recorrido por sus Ramas" 
 date: 2025-07-11 
 weight: 1 
-draft: true
+draft: false
 description: "Un análisis detallado de la familia de lenguas indoeuropeas, desde su ancestro común (el protoindoeuropeo) hasta sus principales ramas modernas como la itálica, germánica, indoirania y muchas más. Incluye un diagrama visual completo."
 ---
 

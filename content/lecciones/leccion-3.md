@@ -1,7 +1,7 @@
 ---
 title: "Lección 3: Cantidad Silábica, Acentuación y Contacto Vocálico"
 date: 2025-07-11
-draft: true
+draft: false
 weight: 4
 description: "Explora cómo se forman las sílabas, la diferencia entre vocales breves y largas, las reglas de acentuación y los recursos que el griego ático emplea para evitar el hiato."
 ejercicios:
