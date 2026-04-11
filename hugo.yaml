@@ -4,7 +4,6 @@ title: "Griego Ático"
 publishDir: "docs"
 disableKinds:
   - "taxonomy"
-
 defaultContentLanguage: es
 defaultContentLanguageInSubdir: false
 
@@ -14,7 +13,7 @@ languages:
     weight: 1
     languageCode: "es-es"
 
-# --- CONFIGURACIÓN DE MARKDOWN (GOLGMARK) ---
+# --- CONFIGURACIÓN DE MARKDOWN (GOLDMARK) ---
 markup:
   goldmark:
     renderer:
@@ -23,9 +22,10 @@ markup:
 # --- PARÁMETROS DEL TEMA (PARAMS) ---
 params:
   description: "Un sitio para aprender griego ático antiguo."
-  author: "Eduardo Alemán" 
+  author: "Eduardo Alemán"
   defaultTheme: "auto" # Opciones: "light", "dark", "auto"
   disableThemeToggle: false
+
   icons:
     books: |
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
@@ -59,13 +59,13 @@ params:
         url: "/lecciones"
       - name: "Referencias"
         url: "/referencias"
-  
+
   # --- METADATOS DE LAS ENTRADAS ---
   hideMeta: true # Oculta metadatos como la fecha en las entradas
 
   # --- CONFIGURACIÓN DE MERMAID ---
   mermaid: true
-  
+
 # --- CONFIGURACIÓN DEL MENÚ DE NAVEGACIÓN ---
 menu:
   main:
@@ -77,4 +77,3 @@ menu:
       name: "Contacto"
       url: "https://ealeman.com"
       weight: 50
-
