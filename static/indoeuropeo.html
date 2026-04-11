@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Árbol de Lenguas Indoeuropeas</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #fff;
+      color: #222;
+      margin: 0;
+      padding: 16px;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #1a1a1a; color: #ddd; }
+      #itree { border-color: #444; }
+      .lnk { stroke: #555; }
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 0 0 12px;
+    }
+    #itree {
+      overflow: auto;
+      width: 100%;
+      max-height: 620px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .n-text {
+      font-size: 10.5px;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    .lnk { fill: none; stroke: #bbb; stroke-width: 1; }
+    #legend {
+      display: flex;
+      gap: 16px;
+      margin-top: 10px;
+      font-size: 11px;
+      color: #666;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .leg-item { display: flex; align-items: center; gap: 5px; }
+    .leg-swatch {
+      width: 13px; height: 13px;
+      border-radius: 3px;
+      display: inline-block;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Árbol de Lenguas Indoeuropeas</h2>
+  <div id="itree"></div>
+  <div id="legend">
+    <span class="leg-item"><span class="leg-swatch" style="background:#e6e6fa;border:1.5px solid #6a5acd"></span>Rama principal</span>
+    <span class="leg-item"><span class="leg-swatch" style="background:#ffe6e6;border:1.5px dashed #cc0000"></span>Lengua extinta</span>
+    <span class="leg-item"><span class="leg-swatch" style="background:#f5f5dc;border:1.5px solid #999"></span>Lengua intermedia</span>
+    <span class="leg-item"><span class="leg-swatch" style="background:#e0f2f1;border:1.5px solid #00796b"></span>Lengua moderna</span>
+    <span style="margin-left:auto;opacity:.5;font-size:11px">← Desplazar →</span>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script>
+    const data = {n:"Proto-Indo-Europeo",t:"branch",c:[
+      {n:"Anatolia",t:"branch",c:[
+        {n:"Hitita",t:"extinct"},
+        {n:"Luvita",t:"extinct"}
+      ]},
+      {n:"Tocaria",t:"branch",c:[
+        {n:"Tocario A",t:"extinct"},
+        {n:"Tocario B",t:"extinct"}
+      ]},
+      {n:"Itálica",t:"branch",c:[
+        {n:"Osco",t:"extinct"},
+        {n:"Latín",t:"intermediate",c:[
+          {n:"Romances",t:"intermediate",c:[
+            {n:"Español",t:"modern"},
+            {n:"Francés",t:"modern"},
+            {n:"Italiano",t:"modern"}
+          ]}
+        ]}
+      ]},
+      {n:"Céltica",t:"branch",c:[
+        {n:"Galo",t:"extinct"},
+        {n:"Celta Insular",t:"intermediate",c:[
+          {n:"Goidélico",t:"intermediate",c:[
+            {n:"Irlandés",t:"modern"},
+            {n:"G. Escocés",t:"modern"}
+          ]},
+          {n:"Britónico",t:"intermediate",c:[
+            {n:"Galés",t:"modern"},
+            {n:"Bretón",t:"modern"}
+          ]}
+        ]}
+      ]},
+      {n:"Germánica",t:"branch",c:[
+        {n:"G. Oriental",t:"intermediate",c:[
+          {n:"Gótico",t:"extinct"}
+        ]},
+        {n:"G. Septentrional",t:"intermediate",c:[
+          {n:"Nórdico Antiguo",t:"intermediate",c:[
+            {n:"Islandés",t:"modern"},
+            {n:"Noruego",t:"modern"}
+          ]}
+        ]},
+        {n:"G. Occidental",t:"intermediate",c:[
+          {n:"Inglés Antiguo",t:"intermediate",c:[
+            {n:"Inglés",t:"modern"}
+          ]},
+          {n:"Alto Alemán Ant.",t:"intermediate",c:[
+            {n:"Alemán",t:"modern"}
+          ]}
+        ]}
+      ]},
+      {n:"Helénica",t:"branch",c:[
+        {n:"Gr. Micénico",t:"intermediate",c:[
+          {n:"Gr. Clásico",t:"intermediate",c:[
+            {n:"Gr. Moderno",t:"modern"}
+          ]}
+        ]}
+      ]},
+      {n:"Indoirania",t:"branch",c:[
+        {n:"Indoario",t:"intermediate",c:[
+          {n:"Sánscrito",t:"intermediate",c:[
+            {n:"Hindi/Urdu",t:"modern"},
+            {n:"Bengalí",t:"modern"}
+          ]}
+        ]},
+        {n:"Iranio",t:"intermediate",c:[
+          {n:"Avéstico",t:"extinct"},
+          {n:"Persa Antiguo",t:"intermediate",c:[
+            {n:"Persa Moderno",t:"modern"}
+          ]}
+        ]}
+      ]},
+      {n:"Balto-Esclava",t:"branch",c:[
+        {n:"Báltico",t:"intermediate",c:[
+          {n:"Prusiano Ant.",t:"extinct"},
+          {n:"Lituano",t:"modern"},
+          {n:"Letón",t:"modern"}
+        ]},
+        {n:"Eslavo",t:"intermediate",c:[
+          {n:"A. Eslavo Ecl.",t:"intermediate",c:[
+            {n:"Esl. Oriental",t:"intermediate",c:[{n:"Ruso",t:"modern"}]},
+            {n:"Esl. Occidental",t:"intermediate",c:[{n:"Polaco",t:"modern"}]},
+            {n:"Esl. Meridional",t:"intermediate",c:[{n:"Búlgaro",t:"modern"}]}
+          ]}
+        ]}
+      ]},
+      {n:"Armenia",t:"branch",c:[
+        {n:"Arm. Clásico",t:"intermediate",c:[
+          {n:"Arm. Moderno",t:"modern"}
+        ]}
+      ]},
+      {n:"Albanés",t:"branch",c:[
+        {n:"Albanés",t:"modern"}
+      ]}
+    ]};
+
+    const NW = 122, NH = 22, LG = 136, GAP = 9, PAD = 10;
+
+    const st = {
+      branch:       { fill:"#e6e6fa", stroke:"#6a5acd", text:"#3C3489", dash:null,  fw:"500" },
+      extinct:      { fill:"#ffe6e6", stroke:"#cc0000", text:"#791F1F", dash:"5,3", fw:"400" },
+      intermediate: { fill:"#f5f5dc", stroke:"#888",    text:"#555",    dash:null,  fw:"400" },
+      modern:       { fill:"#e0f2f1", stroke:"#00796b", text:"#085041", dash:null,  fw:"500" }
+    };
+
+    const root = d3.hierarchy(data, d => d.c);
+    const layout = d3.tree().nodeSize([NH + GAP, LG]);
+    layout(root);
+
+    let minX = Infinity, maxX = -Infinity;
+    root.each(d => {
+      if (d.x < minX) minX = d.x;
+      if (d.x > maxX) maxX = d.x;
+    });
+
+    const maxD  = d3.max(root.descendants(), d => d.depth);
+    const svgW  = (maxD + 1) * LG + NW + PAD * 2;
+    const svgH  = maxX - minX + NH * 2 + PAD * 2;
+    const oy    = -minX + NH + PAD;
+
+    const svg = d3.select("#itree")
+      .append("svg")
+      .attr("width",  svgW)
+      .attr("height", svgH);
+
+    const g = svg.append("g").attr("transform", `translate(${PAD},${oy})`);
+
+    g.selectAll(".lnk")
+      .data(root.links())
+      .join("path")
+      .attr("class", "lnk")
+      .attr("d", d => {
+        const sx = d.source.y + NW, sy = d.source.x;
+        const tx = d.target.y,      ty = d.target.x;
+        const mx = (sx + tx) / 2;
+        return `M${sx},${sy} C${mx},${sy} ${mx},${ty} ${tx},${ty}`;
+      });
+
+    const node = g.selectAll(".nd")
+      .data(root.descendants())
+      .join("g")
+      .attr("class", "nd")
+      .attr("transform", d => `translate(${d.y},${d.x})`);
+
+    node.append("rect")
+      .attr("y", -NH / 2)
+      .attr("width",  NW)
+      .attr("height", NH)
+      .attr("rx", 4)
+      .attr("fill",             d => st[d.data.t].fill)
+      .attr("stroke",           d => st[d.data.t].stroke)
+      .attr("stroke-width",     1)
+      .attr("stroke-dasharray", d => st[d.data.t].dash);
+
+    node.append("text")
+      .attr("class", "n-text")
+      .attr("x", NW / 2)
+      .attr("y", 0)
+      .attr("text-anchor",      "middle")
+      .attr("dominant-baseline","central")
+      .attr("fill",        d => st[d.data.t].text)
+      .attr("font-weight", d => st[d.data.t].fw)
+      .text(d => d.data.n);
+  </script>
+</body>
+</html>
