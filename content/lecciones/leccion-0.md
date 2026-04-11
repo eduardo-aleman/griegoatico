@@ -154,7 +154,7 @@ graph TD
 
     %% --- DEFINICIÓN DE ESTILOS ---
     classDef branch fill:#e6e6fa,stroke:#333,stroke-width:2px;
-    classDef extinct fill:#ffe6e6,stroke:#c00,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef extinct fill:#ffe6e6,stroke:#c00,stroke-width:2px,stroke-dasharray:5 5;
     classDef intermediate fill:#f5f5dc,stroke:#333,stroke-width:1px;
     classDef modern fill:#e0f2f1,stroke:#00796b,stroke-width:2px;
     

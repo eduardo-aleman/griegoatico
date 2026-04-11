@@ -1,1 +1,6 @@
 {{- /* Footer custom content area start */ -}}
+{{ if .Page.Store.Get "hasMermaid" }}
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, theme: 'default' });</script>
+{{ end }}
+{{- /* Footer custom content area end */ -}}
