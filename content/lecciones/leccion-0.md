@@ -10,12 +10,12 @@ description: "Un análisis detallado de la familia de lenguas indoeuropeas, desd
 
 Las **lenguas indoeuropeas** constituyen una de las familias lingüísticas más grandes y extendidas del mundo, abarcando la mayoría de los idiomas de Europa, la meseta iraní y el norte del subcontinente indio, además de regiones de América y Oceanía por la colonización.
 
-Se cree que todas estas lenguas descienden de un ancestro común hipotético: el **protoindoeuropeo (PIE)**. Esta protolengua, que nunca fue escrita, habría sido hablada hace unos 6,000 años (c. 4000 a.C.) en las estepas pónticas, una vasta región al norte de los mares Negro y Caspio. Mediante el **método comparativo**, los lingüistas han reconstruido gran parte de su vocabulario y gramática analizando las similitudes sistemáticas entre sus lenguas descendientes.
+Se cree que todas estas lenguas descienden de un ancestro común hipotético: el **protoindoeuropeo (PIE)**. Esta protolengua, que nunca fue escrita, habría sido hablada hace unos 6,000 años (c. 4000 a.C.) en las estepas pónticas, una vasta región al norte de los mares Negro y Caspio. Esta hipótesis, conocida como la hipótesis de Kurgan y desarrollada principalmente por Marija Gimbutas y David Anthony, es hoy la más ampliamente aceptada, aunque la hipótesis alternativa de Colin Renfrew —que sitúa el origen en Anatolia hacia el 7000 a.C.— sigue siendo objeto de debate académico, especialmente a la luz de estudios recientes de ADN antiguo. Mediante el **método comparativo**, los lingüistas han reconstruido gran parte del vocabulario y la gramática del PIE analizando las similitudes sistemáticas entre sus lenguas descendientes.
 
 Con el tiempo y las migraciones, el PIE se fragmentó en numerosas **ramas**, cada una evolucionando de forma independiente.
 
 > **Diagrama del Árbol Genealógico**
-> El siguiente diagrama representa las principales ramificaciones de la familia indoeuropea. Las lenguas marcadas en rojo están extintas, mientras que los nodos con fondo blanco representan protolenguas reconstruidas o agrupaciones. Una división fundamental es entre las ramas **Centum** (occidentales) y **Satem** (orientales), basada en la evolución de las consonantes velares del PIE.
+> El siguiente diagrama representa las principales ramificaciones de la familia indoeuropea. Las lenguas marcadas en rojo están extintas, mientras que los nodos con fondo blanco representan protolenguas reconstruidas o agrupaciones. Una distinción frecuentemente señalada es la que separa las ramas **Centum** (occidentales) y **Satem** (orientales), basada en la evolución de las consonantes velares del PIE. Sin embargo, la lingüística moderna la considera una **isoglosa** —es decir, una innovación compartida por las lenguas del núcleo oriental— y no una división filogenética fundamental del árbol, ya que el tocario, pese a su posición geográfica oriental, es una lengua Centum.
 
 -----
 
@@ -35,7 +35,7 @@ Las lenguas anatolias se hablaron en la antigua Anatolia (actual Turquía). Su m
   - **Herederos modernos:** Ninguno.
   - **Dato clave:** Geográficamente, fue la rama más oriental.
 
-Comprende dos lenguas extintas, **tocario A** y **tocario B**, habladas en la cuenca del Tarim (actual Xinjiang, China). A pesar de su ubicación oriental, son lenguas **Centum**, lo que sugiere una migración compleja. Los textos que se conservan son principalmente traducciones de escrituras budistas.
+Comprende dos lenguas extintas, **tocario A** y **tocario B**, habladas en la cuenca del Tarim (actual Xinjiang, China). A pesar de su ubicación oriental, son lenguas **Centum**, lo que sugiere una migración compleja y constituye uno de los principales argumentos para tratar la división Centum/Satem como una isoglosa y no como una escisión binaria del árbol. Los textos que se conservan son principalmente traducciones de escrituras budistas.
 
 ### Rama Itálica
 
@@ -58,7 +58,7 @@ Las lenguas celtas dominaron vastas regiones de Europa, desde la Galia (Francia)
 
 ### Rama Germánica
 
-  - **Primer testimonio:** c. siglo II a.C. (inscripciones rúnicas).
+  - **Primer testimonio:** c. siglo II d.C. (inscripciones rúnicas).
   - **Herederos modernos:** Inglés, alemán, neerlandés, sueco, danés, noruego, islandés, yidis, etc.
   - **Dato clave:** Se caracteriza por cambios consonánticos sistemáticos conocidos como la **Ley de Grimm**.
 
@@ -93,7 +93,7 @@ Los principales dialectos literarios fueron:
 
 Esta super-rama se divide en dos grandes grupos:
 
-  * **Sub-rama indoaria:** Se extendió por el norte de la India. Su lengua clásica es el **sánscrito**, en cuya forma más arcaica (védico) se compusieron los textos sagrados de los Vedas. De formas posteriores del sánscrito (los prácritos) descienden lenguas modernas como el **hindi-urdú**, el **bengalí** y el **panyabí**.
+  * **Sub-rama indoaria:** Se extendió por el norte de la India. Su lengua clásica es el **sánscrito**, cuya forma más arcaica (el védico) dio lugar a los textos sagrados de los Vedas. Las lenguas modernas como el **hindi-urdú**, el **bengalí** y el **panyabí** no descienden directamente del sánscrito clásico —que era un registro de prestigio literariamente fijado— sino de las lenguas populares conocidas como **prácritos** y sus desarrollos posteriores (los apabhramsas), que son lenguas hermanas del sánscrito que evolucionaron a partir del indoario antiguo.
   * **Sub-rama irania:** Se desarrolló en la meseta iraní. Sus lenguas antiguas más importantes son el **avéstico** (lengua del zoroastrismo) y el **persa antiguo** (lengua del Imperio aqueménida). Sus descendientes modernos incluyen el **persa (farsi)**, el **pastún** y el **kurdo**.
 
 ### Super-rama Balto-Eslava
@@ -134,7 +134,7 @@ El único miembro de esta rama es el **armenio**. Su forma clásica (el *grabar*
   - **Herederos modernos:** Albanés.
   - **Dato clave:** Es una de las ramas con la atestiguación escrita más tardía.
 
-Representada únicamente por el idioma **albanés**, hablado en Albania, Kosovo y comunidades de los Balcanes. Su origen exacto es incierto, pero la hipótesis más aceptada lo considera el descendiente moderno de una de las lenguas paleobalcánicas, probablemente el **ilirio**.
+Representada únicamente por el idioma **albanés**, hablado en Albania, Kosovo y comunidades de los Balcanes. Su origen exacto es incierto; la hipótesis más extendida lo vincula a una de las lenguas paleobalcánicas, probablemente el **ilirio**, aunque algunos investigadores postulan conexiones con el tracio o el dacio-misio. El debate sigue abierto en la academia.
 
 ### Ramas Fragmentarias y Lenguas Aisladas
 
