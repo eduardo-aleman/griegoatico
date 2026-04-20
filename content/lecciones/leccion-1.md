@@ -46,9 +46,9 @@ Toda vocal o consonante se pronuncia siempre de la misma manera, utilizando como
 | **Γ** | **γ** | γάμμα | Gamma | g | **g**ato; como **n** ante γ, κ, χ, ξ |
 | **Δ** | **δ** | δέλτα | Delta | d | **d**ía |
 | **Ε** | **ε** | ἔ ψιλόν | Épsilon | e | p**e**so |
-| **Ζ** | **ζ** | ζῆτα | Zeta | z | de**sd**e |
+| **Ζ** | **ζ** | ζῆτα | Zeta | z | de**sd**e (sonido /zd/) |
 | **Η** | **η** | ἦτα | Eta | ē | r**e**y |
-| **Θ** | **θ** | θῆτα | Theta | th | **z**apato (castellano) |
+| **Θ** | **θ** | θῆτα | Theta | th | **z**apato (cast.) / ***th**ink* (ingl.) |
 | **Ι** | **ι** | ἰῶτα | Iota | i | s**i** |
 | **Κ** | **κ** | κάππα | Kappa | k | **c**asa |
 | **Λ** | **λ** | λάμβδα | Lambda | l | **l**uz |
@@ -60,9 +60,9 @@ Toda vocal o consonante se pronuncia siempre de la misma manera, utilizando como
 | **Ρ** | **ρ** | ῥῶ | Rho | r | ca**rr**o (vibrante) |
 | **Σ** | **σ, ς** | σῖγμα | Sigma | s | **s**ol |
 | **Τ** | **τ** | ταῦ | Tau | t | **t**iempo |
-| **Υ** | **υ** | ὖ ψιλόν | Ípsilon | u | **ü** alemana |
+| **Υ** | **υ** | ὖ ψιλόν | Ípsilon | u | vocal anterior redondeada: pronunciar '**i**' con labios redondeados |
 | **Φ** | **φ** | φεῖ | Fi | ph | **f**oto |
-| **Χ** | **χ** | χεῖ | Ji / Chi | ch | **j** suave (como *Bach*) |
+| **Χ** | **χ** | χεῖ | Ji / Chi | ch | fricativa velar: como en *loch* (ingl. escocés) |
 | **Ψ** | **ψ** | ψεῖ | Psi | ps | cá**ps**ula |
 | **Ω** | **ω** | ὦ μέγα | Omega | ō | d**o**n |
 
@@ -70,7 +70,7 @@ Toda vocal o consonante se pronuncia siempre de la misma manera, utilizando como
 
 * **Gamma nasal (γ + gutural):** suena como "n" → ἄγγελος (*ángelos*)
 * **Sigma final (ς):** solo se usa al final de palabra → λόγος (*lógos*)
-* **Ípsilon (υ):** se pronuncia como **ü** alemana o **u** francesa
+* **Ípsilon (υ):** vocal anterior redondeada; se pronuncia articulando una '**i**' con los labios redondeados como para una 'u'. No tiene equivalente directo en castellano ni en inglés.
 
 ---
 
@@ -116,7 +116,7 @@ Son letras que representan la unión de dos sonidos consonánticos.
 * **ξ** (xi)
 * **ψ** (psi)
 
-> **Nota sobre las consonantes dobles:** Estas letras son en realidad "atajos" para combinaciones de sonidos: **ξ** equivale a **κσ** (ks) y **ψ** equivale a **πσ** (ps). El sonido de **ζ** es más discutido, pero comúnmente se pronuncia como **ds**.
+> **Nota sobre las consonantes dobles:** Estas letras son en realidad "atajos" para combinaciones de sonidos: **ξ** equivale a **κσ** (ks) y **ψ** equivale a **πσ** (ps). El sonido de **ζ** es más discutido, pero la reconstrucción más aceptada para el ático clásico es **zd** (como en español *desde*).
 
 ---
 

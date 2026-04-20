@@ -12,10 +12,10 @@ ejercicios:
     respuesta: "El punto y coma (;). Ejemplo: τί ποιεῖς;"
   - pregunta: "La palabra **κἀγώ** es un ejemplo de crasis. ¿De qué dos palabras proviene?"
     respuesta: "De **καὶ ἐγώ** (y yo)."
-  - pregunta: "Transforma la frase **καλός ἐστι** aplicando el acento grave correctamente."
-    respuesta: "καλὸς ἐστι"
+  - pregunta: "Transforma la frase **ἀγαθός ἀνήρ** aplicando el acento grave correctamente."
+    respuesta: "ἀγαθὸς ἀνήρ"
   - pregunta: "Reescribe la frase **ἀλλὰ ἐγώ** aplicando la elisión correctamente."
-    respuesta: "ἀλλ’ ἐγώ"
+    respuesta: "ἀλλ' ἐγώ"
 ---
 ### Tabla de Contenido del Curso
 
@@ -45,13 +45,13 @@ Dominar estos elementos es clave para leer el griego con la fluidez y el ritmo a
 
 | Espíritu | Símbolo | Función | Ejemplos |
 | :--- | :---: | :--- | :--- |
-| **Suave** | **᾽** | **Sin aspiración.** No afecta la pronunciación. | **ἐ**γώ (*egṓ*, “yo”)<br>**ἀ**νήρ (*anḗr*, "hombre")|
-| **Áspero** | **῾** | **Con aspiración.** Se pronuncia como un sonido "h" suave al inicio. | **ἡ**μέρα (*hēméra*, “día”)<br>**ὕ**δωρ (*hýdōr*, "agua") |
+| **Suave** | **᾽** | **Sin aspiración.** No afecta la pronunciación. | **ἐ**γώ (*egṓ*, "yo")<br>**ἀ**νήρ (*anḗr*, "hombre")|
+| **Áspero** | **῾** | **Con aspiración.** Se pronuncia como un sonido "h" suave al inicio. | **ἡ**μέρα (*hēméra*, "día")<br>**ὕ**δωρ (*hýdōr*, "agua") |
 
 **Casos especiales:**
 * La vocal **ípsilon (υ)** y la letra **rho (ρ)** siempre llevan espíritu **áspero** al inicio de palabra.
     * **ὑπέρ** (*hypér*, "sobre")
-    * **ῥήτωρ** (*rhḗtōr*, “orador”) — se transcribe como **rh** en español y otras lenguas.
+    * **ῥήτωρ** (*rhḗtōr*, "orador") — se transcribe como **rh** en español y otras lenguas.
 
 > **Colocación:** El espíritu se escribe sobre una vocal minúscula (`ἁ`) y a la izquierda de una mayúscula (`Ἁ`). Si la vocal también lleva acento, el espíritu va primero (`ἄ`).
 
@@ -63,9 +63,9 @@ El acento griego era **musical**, no de intensidad como en español. Marcaba una
 
 | Acento | Símbolo | Descripción | Ejemplo Aislado | Ejemplo en una Frase |
 | :--- | :---: | :--- | :--- | :--- |
-| **Agudo** | **´** | Indica una **subida** del tono. | **ἄ**νθρωπος (*ánthrōpos*, “ser humano”) | |
-| **Grave** | **`** | Es un acento agudo que **cambia** por un tono más bajo. Ocurre solo cuando a una palabra con acento agudo en la **última sílaba** le sigue otra palabra sin un signo de puntuación fuerte. | **καλός** (*kalós*, “bueno”) | **καλὸς** πατήρ (*kalòs patḗr*, "un buen padre") |
-| **Circunflejo**| **῀** | Indica una **subida y posterior bajada** del tono. Solo puede aparecer sobre una **vocal larga o diptongo** en las dos últimas sílabas. | **δῶ**ρον (*dôron*, “regalo”) | |
+| **Agudo** | **´** | Indica una **subida** del tono. | **ἄ**νθρωπος (*ánthrōpos*, "ser humano") | |
+| **Grave** | **`** | Es un acento agudo que **cambia** por un tono más bajo. Ocurre solo cuando a una palabra con acento agudo en la **última sílaba** le sigue otra palabra sin un signo de puntuación fuerte. | **καλός** (*kalós*, "bueno") | **καλὸς** πατήρ (*kalòs patḗr*, "un buen padre") |
+| **Circunflejo**| **῀** | Indica una **subida y posterior bajada** del tono. Solo puede aparecer sobre una **vocal larga o diptongo** en las dos últimas sílabas. | **δῶ**ρον (*dôron*, "regalo") | |
 
 > **Nota clave:** El acento grave (` `) es un fenómeno de contexto. Nunca verás una palabra terminada en acento grave al final de una oración o antes de una coma.
 
@@ -96,7 +96,7 @@ Son "atajos" fonéticos que fluidifican el habla y son comunes en poesía y pros
 
 Ocurre cuando una palabra que termina en **vocal breve** precede a una palabra que empieza por vocal. La vocal final se omite y se reemplaza por un **apóstrofo (᾽)**.
 
-> **ἀλλὰ ἐγώ** → **ἀλλ’ ἐγώ**
+> **ἀλλὰ ἐγώ** → **ἀλλ' ἐγώ**
 > (*allà egṓ* → *all' egṓ*, "sino yo / pero yo")
 
 ### 4.2. Crasis
@@ -116,11 +116,11 @@ Es la **fusión** de la vocal final de una palabra con la vocal inicial de la si
 2.  **ἱστορία** (*historía*, "historia")
     * Empieza con `ι`, vocal que puede llevar cualquier espíritu. En este caso, es **áspero**: **ἱστορία**.
 
-3.  **θεός ἐστι** (*theós esti*, "es un dios")
-    * `θεός` tiene acento agudo en la última sílaba. Como le sigue otra palabra (`ἐστι`) sin pausa, el acento agudo se convierte en **grave**: **θεὸς ἐστι**.
+3.  **ἀγαθὸς ἀνήρ** (*agathòs anḗr*, "un hombre bueno")
+    * `ἀγαθός` tiene acento agudo en la última sílaba. Como le sigue otra palabra (`ἀνήρ`) sin pausa, el acento agudo se convierte en **grave**: **ἀγαθὸς ἀνήρ**.
 
 4.  **ἀπὸ ἐμοῦ** (*apò emoû*, "de mí")
-    * `ἀπὸ` termina en vocal breve (`ο`) y `ἐμοῦ` empieza por vocal. Se produce elisión: **ἀπ’ ἐμοῦ**.
+    * `ἀπὸ` termina en vocal breve (`ο`) y `ἐμοῦ` empieza por vocal. Se produce elisión: **ἀπ' ἐμοῦ**.
 
 ---
 
@@ -129,13 +129,13 @@ Es la **fusión** de la vocal final de una palabra con la vocal inicial de la si
 * **Espíritus**: Toda palabra que inicia en vocal, diptongo o **ρ** lleva un espíritu: suave (`᾽`) o áspero (`῾`). La **ρ** y la **υ** iniciales siempre llevan áspero.
 * **Acentos**:
     * **Agudo (`´`)**: Tono alto. Puede ir en cualquiera de las tres últimas sílabas.
-    * **Grave (`\``)**: Reemplaza a un agudo en la sílaba **final** de una palabra si le sigue otra palabra tónica.
+    * **Grave (`\``)**: Reemplaza a un agudo en la sílaba **final** de una palabra si le sigue otra palabra sin pausa fuerte.
     * **Circunflejo (`῀`)**: Tono alto-bajo. Solo sobre vocales largas o diptongos en las dos últimas sílabas.
 * **Puntuación**:
     * El punto alto (`·`) equivale a nuestros dos puntos o punto y coma.
     * El punto y coma griego (`;`) es nuestro signo de interrogación (`?`).
 * **Elisión y Crasis**:
-    * **Elisión**: Usa un apóstrofo (`’`) para omitir una vocal breve final.
+    * **Elisión**: Usa un apóstrofo (`'`) para omitir una vocal breve final.
     * **Crasis**: Usa una coronis (`᾽`) para marcar la fusión de dos palabras en una.
 
 ---
