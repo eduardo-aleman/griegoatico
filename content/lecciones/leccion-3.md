@@ -12,7 +12,7 @@ ejercicios:
   - pregunta: "¿Qué forma contraída adopta el verbo **τιμάετε** (vosotros honráis)?"
     respuesta: "Se contrae en **τιμᾶτε**. La secuencia α + ε se contrae en α larga (ᾱ)."
   - pregunta: "Añade la **ν eufónica** (o movible) a la palabra **πᾶσι** en la frase 'lo dio a todos los hombres' (**ἔδωκε πᾶσι ἀνθρώποις**)."
-    respuesta: "ἔδωκε**ν** πᾶσι**ν** ἀνθρώποις. Tanto el verbo como el dativo plural pueden añadir una -ν para evitar el hiato."
+    respuesta: "ἔδωκε πᾶσι**ν** ἀνθρώποις. Solo el dativo plural πᾶσι recibe la -ν, porque la palabra siguiente (ἀνθρώποις) empieza por vocal. El verbo ἔδωκε va seguido de πᾶσι, que empieza por consonante (π), así que no la necesita."
   - pregunta: "En la palabra **πόλεως** (de la ciudad), las vocales -εω- a menudo se pronunciaban como una sola sílaba sin cambiar la ortografía. ¿Cómo se llama este fenómeno?"
     respuesta: "Synízesis (συνίζησις)."
 ---
@@ -85,10 +85,10 @@ La **contracción** (en griego συναίρεσις, *synaíresis*) es la fusió
 ### B. Entre palabras: Mecanismos para Evitar el Hiato
 
 #### 1. Elisión
-Es la eliminación de una vocal breve al final de una palabra cuando la siguiente comienza por vocal. Se marca con un apóstrofo (`’`).
+Es la eliminación de una vocal breve al final de una palabra cuando la siguiente comienza por vocal. Se marca con un apóstrofo (`'`).
 
-> **ἀπὸ ἐμοῦ** → **ἀπ’ ἐμοῦ** (*de mí*)
-> **μετὰ αὐτόν** → **μετ’ αὐτόν** (*después de él*)
+> **ἀπὸ ἐμοῦ** → **ἀπ' ἐμοῦ** (*de mí*)
+> **μετὰ αὐτόν** → **μετ' αὐτόν** (*después de él*)
 
 #### 2. Crasis
 Es la fusión de dos palabras en una. Ocurre típicamente entre un artículo o una conjunción y la palabra siguiente. Se marca con una **coronis** (`᾽`) sobre la vocal fusionada.
@@ -100,7 +100,7 @@ Es la fusión de dos palabras en una. Ocurre típicamente entre un artículo o u
 Para evitar el hiato, ciertas palabras que terminan en vocal pueden añadir una **-ν** (llamada ν ἐφελκυστικόν) si la palabra siguiente empieza por vocal o al final de una frase.
 
 Las palabras más comunes que usan la ν eufónica son:
-* Verbos en tercera persona del singular (ej: **λέγει** → **λέγειν**)
+* Verbos en tercera persona del singular cuya forma termina en **-ε** (principalmente en el imperfecto y el aoristo: **ἔγραφε → ἔγραφεν**)
 * La tercera persona del plural de verbos (ej: **λέγουσι** → **λέγουσιν**)
 * El dativo plural en **-σι** (ej: **πᾶσι** → **πᾶσιν**)
 * El verbo **ἐστί** → **ἐστίν**.
